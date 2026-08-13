@@ -11,9 +11,10 @@
       { "item": "Huawei telecom equipment", "reason": "National security", "effectiveDate": "2019-05-15", "sourceUrl": "https://www.bis.gov/entity-list" }
     ],
     "conflicts": [
-      { "with": "China", "type": "Trade War", "status": "Active", "summary": "Ongoing tariff escalation over tech exports", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
+      { "with": "China", "type": "Trade War", "status": "Active", "summary": "Ongoing tariff escalation over tech exports", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" },
+      { "with": "Iran", "type": "Military (Active War)", "status": "Active", "summary": "Joint US-Israel military operation launched in early 2026 targeting Iranian infrastructure; ongoing hostilities alongside Strait of Hormuz naval blockade", "sourceUrl": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran" }
     ],
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-08-13"
   },
   "cn": {
     "name": "China",
