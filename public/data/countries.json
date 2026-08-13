@@ -2101,118 +2101,99 @@
 "mc": {
   "name": "Monaco",
   "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
+    { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }  ],
   "sanctions": [], "bannedGoods": [], "conflicts": [],
   "lastUpdated": "2026-01-01"
 },
 "sm": {
   "name": "San Marino",
   "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
+    { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }  ],
   "sanctions": [], "bannedGoods": [], "conflicts": [],
   "lastUpdated": "2026-01-01"
 },
 "va": {
-  "name": "Vatican City",
-  "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "sanctions": [], "bannedGoods": [], "conflicts": [],
-  "lastUpdated": "2026-01-01"
-},
-"tm": {
-  "name": "Turkmenistan",
-  "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "sanctions": [], "bannedGoods": [],
-  "conflicts": [
-    { "with": "United States", "type": "Diplomatic Engagement", "status": "Cooperative", "summary": "Turkmenistan was among the five Central Asian states hosted by President Trump at a November 2025 White House summit alongside Kazakhstan, Uzbekistan, Tajikistan, and Kyrgyzstan, part of a broader US push to deepen ties and secure critical minerals access across the region; Turkmenistan received a new US chargé d'affaires as part of this renewed engagement", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "lastUpdated": "2026-01-01"
-},
-"km": {
-  "name": "Comoros",
-  "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/libya" }
-  ],
-  "sanctions": [], "bannedGoods": [],
-  "conflicts": [
-    { "with": "Internal Economic Crisis", "type": "Fuel Price Unrest", "status": "Active", "summary": "Comoros raised diesel prices by 46% and gasoline by 35% in May 2026 amid a global oil price spike tied to the Iran war, triggering nationwide protests and deadly unrest that forced President Assoumani to suspend the hikes within a week", "sourceUrl": "https://en.wikipedia.org/wiki/2026_in_the_Comoros" }
-  ],
-  "lastUpdated": "2026-05-16"
-},
-"eh": {
-  "name": "Western Sahara",
-  "tariffs": [],
-  "sanctions": [], "bannedGoods": [],
-  "conflicts": [
-    { "with": "Morocco / Polisario Front", "type": "Territorial Dispute", "status": "Active", "summary": "The UN Security Council adopted Resolution 2797 in late 2025 endorsing Morocco's autonomy plan for Western Sahara and extending the MINURSO peacekeeping mission through October 2026, a diplomatic win for Morocco that drew condemnation from the Polisario Front, which continues to seek full independence; the US has generally backed Morocco's autonomy framework as the most viable path forward", "sourceUrl": "https://en.wikipedia.org/wiki/2025_in_Western_Sahara" }
-  ],
-  "lastUpdated": "2026-03-02"
-},
-"ki": {
-  "name": "Kiribati",
-  "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "sanctions": [], "bannedGoods": [],
-  "conflicts": [
-    { "with": "United States", "type": "Diplomatic Presence", "status": "Cooperative", "summary": "The US Embassy in Fiji maintains diplomatic accreditation covering Kiribati alongside Tonga, Tuvalu, Nauru, and other Pacific micro-states, part of Washington's expanded diplomatic footprint across the Pacific aimed at countering Chinese influence in the region", "sourceUrl": "https://fj.usembassy.gov/location-fiji-tonga-tuvalu-nauru-kiribati-french-polynesia-new-caledonia-and-wallis-and-futuna/" }
-  ],
-  "lastUpdated": "2025-08-19"
-},
-"tv": {
-  "name": "Tuvalu",
-  "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "sanctions": [], "bannedGoods": [],
-  "conflicts": [
-    { "with": "Climate Crisis / Energy Shortage", "type": "State of Emergency", "status": "Active", "summary": "Tuvalu declared a two-week state of emergency on its capital island Funafuti in April 2026 over growing fuel and electricity shortages; the tiny Pacific nation is set to host a special world leaders' meeting ahead of the 2026 UN Climate Change Conference in Turkey, underscoring its role as a frontline nation in the climate crisis", "sourceUrl": "https://en.wikipedia.org/wiki/2026_in_Tuvalu" }
-  ],
-  "lastUpdated": "2026-04-17"
-},
-"nr": {
-  "name": "Nauru",
-  "tariffs": [
-    { "target": "United States", "rate": "15%", "category": "General tariff (higher than most Pacific micro-states)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "sanctions": [], "bannedGoods": [],
-  "conflicts": [
-    { "with": "United States / China", "type": "Diplomatic Realignment", "status": "Active", "summary": "Nauru abruptly switched diplomatic recognition from Taiwan to China in January 2024 in exchange for a reported $100 million package, a move that rattled Washington and its allies and became a cautionary example cited repeatedly when the US renewed its Compact of Free Association funding with Palau, the Marshall Islands, and Micronesia to prevent similar defections", "sourceUrl": "https://www.csis.org/analysis/compacts-free-association-congress-and-strategic-competition-pacific" }
-  ],
-  "lastUpdated": "2025-09-25"
-},
-"nc": {
-  "name": "New Caledonia",
-  "tariffs": [
-    { "target": "United States", "rate": "15%", "category": "General tariff (French overseas territory, EU-wide rate applies)", "effectiveDate": "2026-07-01", "sourceUrl": "https://fj.usembassy.gov/location-fiji-tonga-tuvalu-nauru-kiribati-french-polynesia-new-caledonia-and-wallis-and-futuna/" }
-  ],
-  "sanctions": [], "bannedGoods": [], "conflicts": [],
-  "lastUpdated": "2025-08-19"
-},
-"fk": {
-  "name": "Falkland Islands",
-  "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from an initial 41% threat)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "sanctions": [], "bannedGoods": [],
-  "conflicts": [
-    { "with": "United States", "type": "Trade Measure", "status": "Resolved", "summary": "The Falkland Islands, a UK overseas territory, initially faced one of the highest reciprocal tariff rates announced anywhere in the world at 41% in April 2025, before it was folded into the broader 10% Section 122 baseline that replaced most country-specific rates", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
-  "lastUpdated": "2026-01-01"
-},
-"gf": {
-  "name": "French Guiana",
-  "tariffs": [
-    { "target": "United States", "rate": "15%", "category": "General tariff (French overseas territory, EU-wide rate applies)", "effectiveDate": "2026-07-01", "sourceUrl": "https://kescologistics.com/blog/reciprocal-tariff-tracker/" }
-  ],
-  "sanctions": [], "bannedGoods": [], "conflicts": [],
-  "lastUpdated": "2026-03-26"
-},
+    "name": "Vatican City",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "tm": {
+    "name": "Turkmenistan",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [
+      { "item": "Cotton produced with forced labor", "reason": "CBP Withhold Release Order", "effectiveDate": "2018-05-18", "sourceUrl": "https://www.cbp.gov/trade/forced-labor/withhold-release-orders-and-findings" }
+    ],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "ki": {
+    "name": "Kiribati",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "tv": {
+    "name": "Tuvalu",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "nr": {
+    "name": "Nauru",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "fk": {
+    "name": "Falkland Islands",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "km": {
+    "name": "Comoros",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "gf": {
+    "name": "French Guiana",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (EU baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/united-states_en" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
 "si": {
   "name": "Slovenia",
   "tariffs": [
