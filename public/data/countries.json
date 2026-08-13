@@ -2,24 +2,27 @@
   "us": {
     "name": "United States",
     "tariffs": [
-      { "target": "China", "rate": "25%", "category": "Steel & Aluminum", "effectiveDate": "2025-03-01", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
+      { "target": "China", "rate": "10%–15%", "category": "Agricultural products (corn, wheat, soybeans), crude oil & supercooled natural gas", "effectiveDate": "2025-03-10", "sourceUrl": "https://www.tradecomplianceresourcehub.com/2026/07/27/trump-2-0-tariff-tracker/" },
+      { "target": "Canada", "rate": "25%", "category": "Steel, aluminum, consumer goods & vehicle surtaxes", "effectiveDate": "2025-03-04", "sourceUrl": "https://www.blakes.com/insights/us-canada-tariffs-timeline-of-key-dates-and-documents/" },
+      { "target": "European Union", "rate": "17% (Targeted)", "category": "EVs, industrial machinery & agricultural counter-duties", "effectiveDate": "2024-10-30", "sourceUrl": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/china_en" }
     ],
     "sanctions": [
-      { "target": "Russia", "type": "Financial", "description": "SWIFT restrictions on major banks", "effectiveDate": "2022-02-26", "sourceUrl": "https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database/" }
+      { "target": "Russia", "type": "Financial", "description": "SWIFT restrictions on major banks", "effectiveDate": "2022-02-26", "sourceUrl": "" }
     ],
     "bannedGoods": [
-      { "item": "Huawei telecom equipment", "reason": "National security", "effectiveDate": "2019-05-15", "sourceUrl": "https://www.bis.gov/entity-list" }
+      { "item": "Huawei telecom equipment", "reason": "National security", "effectiveDate": "2019-05-15", "sourceUrl": "" }
     ],
     "conflicts": [
-      { "with": "China", "type": "Trade War", "status": "Active", "summary": "Ongoing tariff escalation over tech exports", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" },
-      { "with": "Iran", "type": "Military (Active War)", "status": "Active", "summary": "Joint US-Israel military operation launched in early 2026 targeting Iranian infrastructure; ongoing hostilities alongside Strait of Hormuz naval blockade", "sourceUrl": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran" }
+      { "with": "China", "type": "Trade War", "status": "Active", "summary": "Ongoing tariff escalation over tech exports", "sourceUrl": "" },
+      { "with": "Iran", "type": "Military (Active War)", "status": "Active", "summary": "Joint US-Israel military operation launched in early 2026 targeting Iranian infrastructure; ongoing hostilities alongside Strait of Hormuz naval blockade", "sourceUrl": "" }
     ],
     "lastUpdated": "2026-08-13"
   },
   "cn": {
     "name": "China",
     "tariffs": [
-      { "target": "United States", "rate": "20%", "category": "Agricultural Products", "effectiveDate": "2025-04-10", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
+      { "target": "United States", "rate": "20%", "category": "Agricultural Products", "effectiveDate": "2025-04-10", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" },
+      { "target": "United States", "rate": "25%", "category": "Steel & Aluminum (Retaliatory)", "effectiveDate": "2025-03-01", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
     ],
     "sanctions": [],
     "bannedGoods": [
@@ -28,7 +31,7 @@
     "conflicts": [
       { "with": "United States", "type": "Trade War", "status": "Active", "summary": "Retaliatory tariffs on agricultural and tech goods", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
     ],
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-08-13"
   },
   "ru": {
     "name": "Russia",
