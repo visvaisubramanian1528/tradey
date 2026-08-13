@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tradey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body>
+    <div id="landing" class="view">
+      <div class="gradient-bg">
+        <div class="gradient-blob blob-red"></div>
+        <div class="gradient-blob blob-blue"></div>
+        <div class="gradient-blob blob-white"></div>
+      </div>
+      <div class="landing-content">
+        <h1 class="landing-title">Tradey</h1>
+        <p class="landing-subtitle">
+          <span id="typed-text"></span><span class="cursor">|</span>
+        </p>
+        <div class="landing-buttons">
+          <button id="enter-btn" class="enter-button">Dive In</button>
+          <button id="how-it-works-btn" class="secondary-button">How It Works</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="how-it-works" class="view hidden">
+      <div class="gradient-bg">
+        <div class="gradient-blob blob-red"></div>
+        <div class="gradient-blob blob-blue"></div>
+        <div class="gradient-blob blob-white"></div>
+      </div>
+      <button class="back-button" id="back-from-how" aria-label="Back">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div class="how-it-works-content">
+        <h1 class="how-title">How It Works</h1>
+        <div class="how-section">
+          <h2>What is Tradey?</h2>
+          <p>
+            Tradey is an interactive world map that tracks tariffs, sanctions,
+            banned goods, and military or trade war conflicts for countries
+            around the world.
+          </p>
+        </div>
+        <div class="how-section">
+          <h2>How do I use it?</h2>
+          <p>
+            Click "Dive In" to open the map. Hover a country for a quick
+            preview, or click it to pin the details open — you can then drag
+            the panel anywhere and click through to sources. Countries
+            without tracked data will simply show "No active measures tracked."
+          </p>
+        </div>
+        <div class="how-section">
+          <h2>How current is the data?</h2>
+          <p>
+            Each country's entry includes a "last updated" date. Tradey is
+            manually researched and updated periodically — it is not a live,
+            real-time feed.
+          </p>
+        </div>
+        <div class="how-section">
+          <h2>Whose perspective is this?</h2>
+          <p>
+            The tariffs, sanctions, and restrictions shown here are framed
+            from the perspective and interests of the United States. They do
+            not necessarily reflect how other countries view the fairness,
+            legality, or legitimacy of these same measures.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="map-view" class="view hidden">
+      <button class="back-button" id="back-from-map" aria-label="Back">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div id="app"></div>
+      <div id="tooltip"></div>
+    </div>
+
+    <div id="chat-widget">
+      <div id="chat-panel" class="hidden">
+        <div class="chat-header">
+          <span>Tradey</span>
+          <button id="chat-close" aria-label="Close">×</button>
+        </div>
+        <div id="chat-messages"></div>
+        <div class="chat-input-row">
+          <button id="chat-send" aria-label="Send">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 12L4 5l6 7-6 7 16-7z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <input id="chat-input" type="text" placeholder="Ask about a country..." autocomplete="off" />
+        </div>
+      </div>
+      <button id="chat-toggle" aria-label="Open assistant">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 4h16v11H8l-4 4V4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

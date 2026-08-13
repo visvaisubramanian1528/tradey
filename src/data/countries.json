@@ -1,0 +1,2228 @@
+{
+  "us": {
+    "name": "United States",
+    "tariffs": [
+      { "target": "China", "rate": "25%", "category": "Steel & Aluminum", "effectiveDate": "2025-03-01", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
+    ],
+    "sanctions": [
+      { "target": "Russia", "type": "Financial", "description": "SWIFT restrictions on major banks", "effectiveDate": "2022-02-26", "sourceUrl": "https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database/" }
+    ],
+    "bannedGoods": [
+      { "item": "Huawei telecom equipment", "reason": "National security", "effectiveDate": "2019-05-15", "sourceUrl": "https://www.bis.gov/entity-list" }
+    ],
+    "conflicts": [
+      { "with": "China", "type": "Trade War", "status": "Active", "summary": "Ongoing tariff escalation over tech exports", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
+    ],
+    "lastUpdated": "2026-07-01"
+  },
+  "cn": {
+    "name": "China",
+    "tariffs": [
+      { "target": "United States", "rate": "20%", "category": "Agricultural Products", "effectiveDate": "2025-04-10", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [
+      { "item": "Rare earth export controls (Oct 2025)", "reason": "Strategic resource control — controls were suspended Nov 7, 2025 through Nov 10, 2026 as part of a US-China trade truce, so they are not currently in effect", "effectiveDate": "2025-10-09", "sourceUrl": "https://www.china-briefing.com/news/chinas-rare-earth-export-controls-impacts-on-businesses/" }
+    ],
+    "conflicts": [
+      { "with": "United States", "type": "Trade War", "status": "Active", "summary": "Retaliatory tariffs on agricultural and tech goods", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" }
+    ],
+    "lastUpdated": "2026-07-01"
+  },
+  "ru": {
+    "name": "Russia",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Global", "type": "Financial", "description": "Removal from SWIFT for major banks", "effectiveDate": "2022-02-26", "sourceUrl": "https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database/" },
+      { "target": "EU", "type": "Energy", "description": "Oil price cap enforcement", "effectiveDate": "2022-12-05", "sourceUrl": "https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database/" }
+    ],
+    "bannedGoods": [
+      { "item": "Dual-use technology exports", "reason": "Military application concerns — export controls aim to degrade Russia's military capabilities, though third-country evasion networks continue to supply components", "effectiveDate": "2022-03-01", "sourceUrl": "https://www.atlanticcouncil.org/blogs/econographics/global-sanctions-dashboard-us-and-g7-allies-target-russias-evasion-and-procurement-networks/" }
+    ],
+    "conflicts": [
+      { "with": "Ukraine", "type": "Military", "status": "Active", "summary": "Ongoing armed conflict since February 2022; a 20-point US-brokered peace deal is under discussion but key terms remain unresolved", "sourceUrl": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine" }
+    ],
+    "lastUpdated": "2026-08-07"
+  },
+  "ir": {
+    "name": "Iran",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Global", "type": "Financial", "description": "US and EU sanctions on oil exports and banking, part of the broader 'maximum pressure' campaign", "effectiveDate": "2018-11-05", "sourceUrl": "https://ofac.treasury.gov/sanctions-programs-and-country-information/iran-sanctions" }
+    ],
+    "bannedGoods": [
+      { "item": "Crude oil, petrochemical, and petroleum products of Iranian origin", "reason": "OFAC briefly authorized Iranian oil sales in June 2026 under General License X, then revoked it on July 7, 2026, reimposing the ban amid renewed conflict", "effectiveDate": "2026-07-07", "sourceUrl": "https://www.thompsonhinesmartrade.com/2026/07/ofac-reinstates-u-s-sanctions-related-to-sales-of-iranian-oil/" }
+    ],
+    "conflicts": [
+      { "with": "United States / Israel", "type": "Military (Active War)", "status": "Active", "summary": "The US and Israel struck Iran on February 28, 2026, killing Supreme Leader Ali Khamenei; a series of ceasefires (April, June) have repeatedly collapsed, with the US resuming strikes and a Strait of Hormuz blockade on July 13, 2026", "sourceUrl": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran" }
+    ],
+    "lastUpdated": "2026-08-07"
+  },
+  "EU": {
+    "name": "European Union",
+    "tariffs": [
+      { "target": "China", "rate": "17%", "category": "Electric Vehicles", "effectiveDate": "2024-10-30", "sourceUrl": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/china_en" }
+    ],
+    "sanctions": [
+      { "target": "Russia", "type": "Financial", "description": "Asset freezes and banking restrictions", "effectiveDate": "2022-02-26", "sourceUrl": "https://www.sanctionsmap.eu/#/main/details/35/?search=%7B%22value%22:%22%22,%22searchType%22:%7B%7D%7D" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "China", "type": "Trade War", "status": "Escalating", "summary": "EV tariff dispute with retaliatory measures threatened", "sourceUrl": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/china_en" }
+    ],
+    "lastUpdated": "2026-07-01"
+  },
+  "kp": {
+    "name": "North Korea",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Global", "type": "Comprehensive", "description": "Virtually all trade, financial transactions, and investment involving North Korea are prohibited for US persons under OFAC's North Korea Sanctions Regulations", "effectiveDate": "2016-03-16", "sourceUrl": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions" },
+      { "target": "Global", "type": "Cyber/Financial", "description": "Sanctions targeting DPRK IT worker schemes and cyber-enabled fund laundering", "effectiveDate": "2026-03-12", "sourceUrl": "https://www.state.gov/democratic-peoples-republic-of-korea-sanctions/" }
+    ],
+    "bannedGoods": [
+      { "item": "Virtually all goods, technology, and services", "reason": "Comprehensive US sanctions program (WMD and ballistic missile proliferation concerns)", "effectiveDate": "2016-03-16", "sourceUrl": "https://ofac.treasury.gov/sanctions-programs-and-country-information/north-korea-sanctions" }
+    ],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic/Nuclear", "status": "Active", "summary": "Ongoing tensions over denuclearization and ballistic missile testing", "sourceUrl": "https://www.congress.gov/crs-product/IF10246" }
+    ],
+    "lastUpdated": "2026-07-12"
+  },
+  "ve": {
+    "name": "Venezuela",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Government of Venezuela / PDVSA", "type": "Financial/Sectoral", "description": "Comprehensive sanctions on the Venezuelan government and state oil company remain formally in place, though OFAC has issued a wave of general licenses since January 2026 easing oil, gas, and mining restrictions following the capture of former President Nicolás Maduro. Situation is rapidly evolving.", "effectiveDate": "2019-01-01", "sourceUrl": "https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Political", "status": "De-escalating", "summary": "Relations shifting rapidly after the January 2026 removal of Maduro; sanctions being selectively rolled back", "sourceUrl": "https://ofac.treasury.gov/sanctions-programs-and-country-information/venezuela-related-sanctions" }
+    ],
+    "lastUpdated": "2026-07-24"
+  },
+  "ca": {
+    "name": "Canada",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Ongoing", "summary": "Trade tensions under USMCA review, including disputes over dairy, lumber, and energy policy", "sourceUrl": "https://ustr.gov/countries-regions/americas/canada" }
+    ],
+    "lastUpdated": "2026-07-24"
+  },
+  "mx": {
+    "name": "Mexico",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Ongoing", "summary": "Trade tensions tied to USMCA review, border security, and immigration policy", "sourceUrl": "https://ustr.gov/countries-regions/americas/mexico" }
+    ],
+    "lastUpdated": "2026-07-24"
+  },
+  "cu": {
+    "name": "Cuba",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Cuban Government", "type": "Comprehensive Embargo", "description": "Decades-long comprehensive trade embargo under the Cuban Assets Control Regulations (1963), prohibiting most exports to and imports from Cuba", "effectiveDate": "1963-07-08", "sourceUrl": "https://www.state.gov/cuba-sanctions" },
+      { "target": "Cuban Government / GAESA", "type": "Secondary Sanctions", "description": "New IEEPA-based sanctions program (E.O. 14404) targeting Cuba's military-run economic conglomerate and authorizing secondary sanctions against foreign banks dealing with designated entities", "effectiveDate": "2026-05-01", "sourceUrl": "https://www.state.gov/u-s-sanctions-target-cubas-military-regime-elites" },
+      { "target": "CUPET (state oil company)", "type": "Energy", "description": "Cuba's state-owned oil and gas company added to the SDN list as part of an energy denial strategy", "effectiveDate": "2026-06-11", "sourceUrl": "https://www.state.gov/cuba-sanctions" }
+    ],
+    "bannedGoods": [
+      { "item": "Most exports and imports", "reason": "Comprehensive embargo under the Cuban Democracy Act and Helms-Burton Act", "effectiveDate": "1996-03-12", "sourceUrl": "https://www.state.gov/cuba-sanctions" }
+    ],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic", "status": "Escalating", "summary": "US sanctions significantly expanded in 2026 targeting Cuba's military and energy sectors", "sourceUrl": "https://www.state.gov/cuba-sanctions" }
+    ],
+    "lastUpdated": "2026-08-06"
+  },
+  "br": {
+    "name": "Brazil",
+    "tariffs": [
+      { "target": "United States", "rate": "50%", "category": "Most goods (base 10% + 40% IEEPA duty)", "effectiveDate": "2025-08-06", "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2025/11/modifying-the-scope-of-tariffs-on-the-government-of-brazil/" },
+      { "target": "United States", "rate": "25%", "category": "Section 301 goods (new, under Section 301 investigation)", "effectiveDate": "2026-07-16", "sourceUrl": "https://www.cnbc.com/2026/07/16/us-tariffs-brazil-unfair-trade-practices-section-301-.html" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade War", "status": "Active", "summary": "US imposed a 40% IEEPA tariff in August 2025 citing national security concerns over Brazilian government actions, followed by new Section 301 tariffs targeting unfair trade practices in July 2026", "sourceUrl": "https://www.atlanticcouncil.org/dispatches/what-new-tariffs-would-mean-for-us-brazil-trade/" }
+    ],
+    "lastUpdated": "2026-07-16"
+  },
+  "ar": {
+    "name": "Argentina",
+    "tariffs": [
+      { "target": "United States", "rate": "50%", "category": "Steel & Aluminum (unchanged by new deal)", "effectiveDate": "2025-01-01", "sourceUrl": "https://wsclegal.com/en/breakdown-of-the-argentina-u-s-trade-deal/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "Argentina and the US signed a trade deal in February 2026 eliminating over 1,600 reciprocal tariffs, though 50% steel and aluminum tariffs remain in place", "sourceUrl": "https://www.npr.org/2026/02/06/nx-s1-5704104/argentina-us-trade-deal" }
+    ],
+    "lastUpdated": "2026-02-06"
+  },
+  "co": {
+    "name": "Colombia",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "President Gustavo Petro and family", "type": "Financial (OFAC SDN)", "description": "US Treasury sanctioned President Petro, his wife, his son, and Colombia's interior minister over allegations of involvement in the global drug trade, freezing their US assets", "effectiveDate": "2025-10-24", "sourceUrl": "https://www.npr.org/2025/10/24/g-s1-94970/us-sanctions-colombia-president-petro-drug-allegations" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic", "status": "Escalating", "summary": "Relations sharply deteriorated in 2025 over deportation flight disputes, counternarcotics strikes, and personal sanctions on President Petro", "sourceUrl": "https://inter-american-law-review.law.miami.edu/u-s-colombia-relations-fracture-as-trump-sanctions-petro-threatens-funding-cuts/" }
+    ],
+    "lastUpdated": "2025-11-05"
+  },
+  "cl": {
+    "name": "Chile",
+    "tariffs": [
+      { "target": "United States", "rate": "50%", "category": "Copper (unmanufactured)", "effectiveDate": "2025-08-01", "sourceUrl": "https://www.as-coa.org/articles/tracking-trump-and-latin-america-trade-tariffs-threatened-mexico-over-water-sharing" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Limited Impact", "summary": "A 50% US tariff on copper was welcomed by Chile's mining sector, since it exempts less-processed copper products and Chile remains the top US copper supplier under its long-standing free trade agreement", "sourceUrl": "https://www.as-coa.org/articles/tracking-trump-and-latin-america-trade-tariffs-threatened-mexico-over-water-sharing" }
+    ],
+    "lastUpdated": "2025-07-30"
+  },
+  "pe": {
+    "name": "Peru",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Minimal Impact", "summary": "Peru's economy minister noted only about 5% of Peru's exports go to the US, limiting the impact of new US copper tariffs on Peru's mining sector; Peru operates under the long-standing US-Peru Trade Promotion Agreement", "sourceUrl": "https://www.as-coa.org/articles/tracking-trump-and-latin-america-trade-tariffs-threatened-mexico-over-water-sharing" }
+    ],
+    "lastUpdated": "2025-07-30"
+  },
+  "ec": {
+    "name": "Ecuador",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (mostly removed under new deal)", "effectiveDate": "2025-07-01", "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2025/november/fact-sheet-united-states-and-ecuador-agree-framework-agreement-reciprocal-trade" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "The US and Ecuador finalized a reciprocal trade framework in November 2025, removing the 15% US tariff on Ecuadorian goods (including bananas and cocoa) that cannot be grown or produced in the US, covering about 35% of Ecuador's export value", "sourceUrl": "https://www.freshfruitportal.com/news/2026/02/19/us-ecuador-trade-deal/" }
+    ],
+    "lastUpdated": "2026-02-19"
+  },
+  "bo": {
+    "name": "Bolivia",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (agriculture: quinoa, Brazil nuts hit hardest)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.as-coa.org/articles/tracking-trump-and-latin-america-trade-tariffs-threatened-mexico-over-water-sharing" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Limited Impact", "summary": "Bolivia's tin and mineral exports remain largely exempt from the 15% reciprocal tariff to protect US supply chains, though the country faces a broader balance-of-payments crisis independent of the tariff", "sourceUrl": "https://www.cgdev.org/blog/us-tariffs-may-have-limited-impact-latin-america-now-future-hinges-chinas-macro-policy" }
+    ],
+    "lastUpdated": "2026-01-18"
+  },
+  "gy": {
+    "name": "Guyana",
+    "tariffs": [
+      { "target": "United States", "rate": "12.5%", "category": "General tariff (oil largely exempt; originally 38% in April 2025)", "effectiveDate": "2026-07-24", "sourceUrl": "https://caymanmarlroad.com/2026/07/27/bahamas-guyana-trinidad-and-tobago-hit-by-new-us-tariffs/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Minimal Impact", "summary": "Guyana's rate has shifted repeatedly — from an initial 38% in April 2025 to 18%, then to 12.5% under a July 2026 forced-labor-enforcement tariff wave; nearly 90% of Guyana's US-bound exports are oil, which remains largely exempt", "sourceUrl": "https://www.cgdev.org/blog/us-tariffs-may-have-limited-impact-latin-america-now-future-hinges-chinas-macro-policy" },
+      { "with": "Venezuela", "type": "Territorial Dispute", "status": "Active", "summary": "Venezuela claims Guyana's oil-rich Essequibo region (two-thirds of Guyana's territory); the US has backed Guyana's sovereignty, and a 2026 US military operation against Venezuela is seen by analysts as having temporarily frozen Venezuela's territorial claims. An ICJ ruling was expected around August 2026", "sourceUrl": "https://www.cnbc.com/2026/01/12/oil-trump-venezuela-guyana-essequibo-territorial-dispute.html" }
+    ],
+    "lastUpdated": "2026-07-27"
+  },
+  "py": {
+    "name": "Paraguay",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Minimal Impact", "summary": "Paraguay's exports subject to US tariffs represent less than 1% of its GDP, among the least-exposed economies in South America; the country is not a significant subject of current US trade actions", "sourceUrl": "https://www.cgdev.org/blog/us-tariffs-may-have-limited-impact-latin-america-now-future-hinges-chinas-macro-policy" }
+    ],
+    "lastUpdated": "2025-04-08"
+  },
+  "uy": {
+    "name": "Uruguay",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Minimal Impact", "summary": "Uruguay is minimally affected by US reciprocal tariffs, functioning largely as a stable regional hub for foreign investment rather than a target of active US trade measures", "sourceUrl": "https://gfmag.com/economics-policy-regulation/latin-america-looking-for-silver-linings/" }
+    ],
+    "lastUpdated": "2025-10-29"
+  },
+  "sr": {
+    "name": "Suriname",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "gt": {
+    "name": "Guatemala",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (imposed despite CAFTA-DR membership)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.plasticsindustry.org/blog/reciprocal-tariffs-and-us-plastics-trade-with-el-salvador-and-guatemala/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalating", "summary": "Guatemala and the US announced a Framework for an Agreement on Reciprocal Trade in November 2025, aiming to remove reciprocal tariffs on goods that cannot be produced in the US and on qualifying CAFTA-DR textiles", "sourceUrl": "https://www.cfr.org/articles/tracking-trumps-trade-deals" }
+    ],
+    "lastUpdated": "2026-03-17"
+  },
+  "sv": {
+    "name": "El Salvador",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (imposed despite CAFTA-DR membership)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.plasticsindustry.org/blog/reciprocal-tariffs-and-us-plastics-trade-with-el-salvador-and-guatemala/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalating", "summary": "El Salvador and the US reached a Framework for an Agreement on Reciprocal Trade in January 2026 aimed at removing tariffs on qualifying goods and building on CAFTA-DR", "sourceUrl": "https://www.geodis.com/us-en/resources/customs-corner/us-and-el-salvador-move-forward-new-reciprocal-trade-framework" }
+    ],
+    "lastUpdated": "2026-01-30"
+  },
+  "hn": {
+    "name": "Honduras",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Relationship", "status": "Stable", "summary": "Unlike El Salvador and Guatemala, Honduras was exempted from the August 2025 reciprocal tariffs as a CAFTA-DR partner, keeping most trade near-duty-free", "sourceUrl": "https://www.plasticsindustry.org/blog/reciprocal-tariffs-and-us-plastics-trade-with-el-salvador-and-guatemala/" }
+    ],
+    "lastUpdated": "2026-02-10"
+  },
+  "cr": {
+    "name": "Costa Rica",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "Reciprocal tariff", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.as-coa.org/articles/tracking-trump-and-latin-america-trade-tariffs-threatened-mexico-over-water-sharing" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-08-07"
+  },
+  "ni": {
+    "name": "Nicaragua",
+    "tariffs": [
+      { "target": "United States", "rate": "19%", "category": "Reciprocal tariff (highest in Central America)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.fibre2fashion.com/news/apparel-news/us-tariffs-hit-latin-american-apparel-exporters-end-duty-free-access-301775-newsdetails.htm" }
+    ],
+    "sanctions": [
+      { "target": "Daniel Ortega and Rosario Murillo's children; multiple officials", "type": "Financial/Visa (OFAC SDN)", "description": "The US sanctioned the children of co-presidents Ortega and Murillo for allegedly using proceeds from Nicaragua's gold industry to fund the regime, alongside other officials over human rights abuses and repression", "effectiveDate": "2026-04-16", "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0409" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic/Human Rights", "status": "Escalating", "summary": "Relations have sharply deteriorated as Ortega has consolidated indefinite rule via a 2025 constitutional overhaul and canceled future elections; the US has responded with an expanding sanctions program targeting the regime's gold sector and officials", "sourceUrl": "https://www.cubaheadlines.com/articles/335752" }
+    ],
+    "lastUpdated": "2026-04-17"
+  },
+  "pa": {
+    "name": "Panama",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Sovereignty Dispute", "status": "Active", "summary": "President Trump has repeatedly threatened to 'take back' the Panama Canal, citing high tolls and alleged Chinese influence; Panama has rejected the sovereignty claims but agreed to expanded US security cooperation and withdrew from China's Belt and Road Initiative", "sourceUrl": "https://foreignpolicy.com/2025/02/05/panama-canal-trump-rubio-china-ports/" }
+    ],
+    "lastUpdated": "2026-08-01"
+  },
+  "do": {
+    "name": "Dominican Republic",
+    "tariffs": [
+      { "target": "United States", "rate": "12.5%", "category": "General tariff (July 2026 forced-labor-enforcement wave; originally 10% baseline)", "effectiveDate": "2026-07-24", "sourceUrl": "https://caymanmarlroad.com/2026/07/27/bahamas-guyana-trinidad-and-tobago-hit-by-new-us-tariffs/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "The Dominican Republic was hit with a higher-than-average 12.5% tariff (versus 10% for China, the EU, and UK) in July 2026, justified by the US as addressing inadequate enforcement of forced-labor import bans, despite the country's long-standing CAFTA-DR free trade status", "sourceUrl": "https://www.stvincenttimes.com/us-imposes-new-12-5-tariffs-on-bahamas-guyana-and-trinidad-tobago/" }
+    ],
+    "lastUpdated": "2026-07-27"
+  },
+  "tt": {
+    "name": "Trinidad and Tobago",
+    "tariffs": [
+      { "target": "United States", "rate": "12.5%", "category": "General tariff (July 2026 forced-labor-enforcement wave; originally 10% baseline)", "effectiveDate": "2026-07-24", "sourceUrl": "https://caymanmarlroad.com/2026/07/27/bahamas-guyana-trinidad-and-tobago-hit-by-new-us-tariffs/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Relationship", "status": "Mixed", "summary": "Trinidad and Tobago secured a reversal of a 15% tariff on key agricultural exports in November 2025 after high-level diplomacy, but was later swept into a new 12.5% tariff in July 2026 alongside other Caribbean nations over forced-labor enforcement concerns", "sourceUrl": "https://foreign.gov.tt/resources/news/trinidad-and-tobago-benefits-from-zero-tariffs-on-key-agricultural-exports-to-the-united-states/" }
+    ],
+    "lastUpdated": "2026-07-27"
+  },
+  "jm": {
+    "name": "Jamaica",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.jamaicaobserver.com/2025/04/02/jamaican-goods-entering-us-face-10-tariff/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Ongoing", "summary": "Jamaica faces the 10% US 'reciprocal' baseline tariff, justified by the White House as matching Jamaica's own 10% duty on US goods under CARICOM's Common External Tariff; regional leaders have called the broader tariff wave a threat to the decades-old Caribbean Basin Initiative", "sourceUrl": "https://wiredja.com/index.php/categories/newsberg/news/jamaica-scrambles-as-trumps-tariff-hammer-falls-on-caribbean-trade" }
+    ],
+    "lastUpdated": "2025-07-10"
+  },
+  "bz": {
+    "name": "Belize",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-03", "sourceUrl": "https://www.pressoffice.gov.bz/government-of-belize-responds-to-us-tariffs/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Limited Impact", "summary": "Belize's government noted the tariff's broad application to nearly all US trading partners may limit the real-world harm to Belize's exports, which had previously enjoyed duty-free access under the Caribbean Basin Initiative since 1983", "sourceUrl": "https://www.pressoffice.gov.bz/government-of-belize-responds-to-us-tariffs/" }
+    ],
+    "lastUpdated": "2025-04-03"
+  },
+  "bs": {
+    "name": "The Bahamas",
+    "tariffs": [
+      { "target": "United States", "rate": "12.5%", "category": "General tariff (July 2026 forced-labor-enforcement wave; originally 10% baseline)", "effectiveDate": "2026-07-24", "sourceUrl": "https://caymanmarlroad.com/2026/07/27/bahamas-guyana-trinidad-and-tobago-hit-by-new-us-tariffs/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "The Bahamas was hit with a 12.5% tariff in July 2026 — higher than the 10% applied to China, the EU, and the UK — as part of a 60-country wave targeting inadequate forced-labor import enforcement", "sourceUrl": "https://www.stvincenttimes.com/us-imposes-new-12-5-tariffs-on-bahamas-guyana-and-trinidad-tobago/" }
+    ],
+    "lastUpdated": "2026-07-27"
+  },
+  "ht": {
+    "name": "Haiti",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Armed gangs / internal crisis", "type": "Civil Security Crisis", "status": "Active", "summary": "Armed gangs control an estimated 90% of the capital Port-au-Prince; the US has backed a UN-authorized 5,500-person 'Gang Suppression Force' (deployed starting April 2026) and funded private military contractor drone strikes against gang targets, with 6.4 million Haitians in need of humanitarian assistance", "sourceUrl": "https://carnegieendowment.org/research/2026/07/recalibrating-us-policy-toward-haiti" }
+    ],
+    "lastUpdated": "2026-07-01"
+  },
+  "bb": {
+    "name": "Barbados",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "gd": {
+    "name": "Grenada",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "lc": {
+    "name": "Saint Lucia",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "vc": {
+    "name": "Saint Vincent and the Grenadines",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "kn": {
+    "name": "Saint Kitts and Nevis",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "dm": {
+    "name": "Dominica",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "ag": {
+    "name": "Antigua and Barbuda",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-04-03"
+  },
+  "gb": {
+    "name": "United Kingdom",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General baseline (autos: 10% within 100,000-vehicle quota, down from 27.5%)", "effectiveDate": "2025-06-30", "sourceUrl": "https://www.cnbc.com/2025/06/30/uk-us-trade-deal-heres-what-changes-today.html" },
+      { "target": "United States", "rate": "25%", "category": "Steel & Aluminum (reduced from the 50% global rate under the Economic Prosperity Deal)", "effectiveDate": "2026-04-01", "sourceUrl": "https://www.congress.gov/crs-product/R49037" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "The UK was the first country to reach a trade framework with the US (May 2025), securing preferential rates on autos and aerospace; steel/aluminum terms remained unresolved as of early 2026", "sourceUrl": "https://commonslibrary.parliament.uk/research-briefings/cbp-10240/" }
+    ],
+    "lastUpdated": "2026-07-08"
+  },
+  "ch": {
+    "name": "Switzerland",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (reduced from 39%, the highest imposed on any European country)", "effectiveDate": "2025-11-14", "sourceUrl": "https://www.aljazeera.com/economy/2025/11/14/us-to-slash-tariffs-on-switzerland-to-15-from-crippling-39" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "After the US imposed a 39% tariff in August 2025 (the highest on any European nation, citing a $38.5 billion goods trade deficit), Switzerland negotiated it down to 15% in November 2025 in exchange for a pledged $200 billion in Swiss corporate investment into the US by 2028", "sourceUrl": "https://www.cnbc.com/2025/12/10/us-tariff-switzerland-trade-tariffs.html" }
+    ],
+    "lastUpdated": "2025-12-10"
+  },
+  "by": {
+    "name": "Belarus",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Government of Belarus / Lukashenko regime", "type": "Comprehensive (OFAC)", "description": "Multiple executive orders (E.O. 13405, E.O. 14038) block property of Belarusian officials and entities over human rights violations, election fraud, and Belarus's role enabling Russia's invasion of Ukraine", "effectiveDate": "2021-08-09", "sourceUrl": "https://ofac.treasury.gov/sanctions-programs-and-country-information/belarus-sanctions" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States / EU", "type": "Diplomatic/Sanctions", "status": "Active", "summary": "Belarus remains sanctioned for human rights abuses and for acting as a staging ground and logistics partner for Russia's war against Ukraine; EU sanctions on Belarus were prolonged through at least February 2026", "sourceUrl": "https://www.consilium.europa.eu/en/policies/sanctions-against-belarus/timeline-eu-sanctions-against-belarus/" }
+    ],
+    "lastUpdated": "2026-03-05"
+  },
+  "rs": {
+    "name": "Serbia",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "NIS (Naftna Industrija Srbije, Russian-owned oil company)", "type": "Sectoral (OFAC)", "description": "The US sanctioned Serbia's main oil company because it is majority-owned by Russia's Gazprom Neft, forcing NIS operations idle and disrupting the country's fuel supply", "effectiveDate": "2025-10-09", "sourceUrl": "https://www.usnews.com/news/top-news/articles/2025-11-26/hungary-to-boost-oil-deliveries-to-serbia-as-us-sanctions-cut-supplies" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Sanctions Fallout", "status": "Active", "summary": "US sanctions on Russian-owned NIS cut off Serbia's main fuel supply and threatened to shut down its only oil refinery; Hungary's MOL stepped in to more than double crude deliveries as a stopgap, while Serbia negotiated an OFAC operating license and gave Russia's Gazprom 50 days to sell its stake in NIS", "sourceUrl": "https://www.usnews.com/news/top-news/articles/2025-11-26/hungary-to-boost-oil-deliveries-to-serbia-as-us-sanctions-cut-supplies" }
+    ],
+    "lastUpdated": "2026-01-20"
+  },
+  "de": {
+    "name": "Germany",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "Ongoing", "summary": "Germany's export-heavy auto industry has been hit hardest by the EU-US tariff deal's terms; Volkswagen reported a €1.3 billion profit hit in H1 2025, and Germany's industry association (BDI) has said the EU's 15% blanket tariff ceiling is still too high for export-driven sectors, though it was later reduced further for autos specifically", "sourceUrl": "https://www.finance-monthly.com/eu-us-15-percent-tariff-deal-2025/" }
+    ],
+    "lastUpdated": "2026-01-07"
+  },
+  "fr": {
+    "name": "France",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "Ongoing", "summary": "France was the most vocal EU critic of the July 2025 EU-US trade framework, arguing the bloc gave up too much on agriculture and pharmaceuticals without securing equivalent concessions; French wine, cheese, and spirits exports remained subject to unresolved tariff classification talks, though France had no veto once the European Commission secured a qualified majority", "sourceUrl": "https://blogs.tradlinx.com/a-breakdown-of-the-eu-us-tariff-deal-what-it-means-for-auto-pharma-energy/" }
+    ],
+    "lastUpdated": "2025-07-29"
+  },
+  "nl": {
+    "name": "Netherlands",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [
+      { "item": "Advanced semiconductor lithography equipment (ASML DUV/EUV machines) to China", "reason": "US pressure on the Netherlands to restrict exports of chipmaking equipment over national security and military-application concerns", "effectiveDate": "2023-09-01", "sourceUrl": "https://www.nbcnews.com/news/world/dutch-curb-chip-equipment-exports-us-pressure-rcna91969" }
+    ],
+    "conflicts": [
+      { "with": "United States", "type": "Export Control Dispute", "status": "Active", "summary": "The Dutch government has repeatedly traveled to Washington to push back against expanding US export controls on ASML — Europe's largest tech firm and the sole maker of the most advanced chipmaking machines — most recently objecting to the proposed MATCH Act, which would let the US dictate allied countries' chip export policy to China", "sourceUrl": "https://nltimes.nl/2026/06/24/dutch-government-irritated-us-plans-new-asml-export-restrictions" }
+    ],
+    "lastUpdated": "2026-06-24"
+  },
+  "ua": {
+    "name": "Ukraine",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Russia", "type": "Military", "status": "Active", "summary": "Ukraine continues fighting Russia's full-scale invasion; US direct military aid has slowed sharply in 2026 (roughly $400 million newly authorized vs. tens of billions in prior years), while European allies have stepped up to now provide more than double total US support, according to the Kiel Institute", "sourceUrl": "https://www.cfr.org/articles/how-much-us-aid-going-ukraine" }
+    ],
+    "lastUpdated": "2026-07-20"
+  },
+  "hu": {
+    "name": "Hungary",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Hungary (exemption, not a sanction on Hungary itself)", "type": "Energy Waiver", "description": "The US granted Hungary a one-year exemption from secondary sanctions on Russian oil giants Rosneft and Lukoil, allowing continued use of the TurkStream and Druzhba pipelines, after PM Viktor Orbán personally lobbied President Trump; in exchange Hungary committed to roughly $600 million in US LNG purchases", "effectiveDate": "2025-11-07", "sourceUrl": "https://www.cnbc.com/2025/11/08/us-grants-hungary-exemption-on-russia-sanctions-after-warm-trump-orban-meeting.html" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-11-08"
+  },
+  "pl": {
+    "name": "Poland",
+    "tariffs": [
+      { "target": "United States", "rate": "9.2%", "category": "Average effective tariff rate (up from 1.4% in 2024; aluminum products face 38.8%)", "effectiveDate": "2026-02-01", "sourceUrl": "https://usafacts.org/answers/what-is-the-average-us-tariff-rate-overall/countries/poland/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-04-23"
+  },
+  "ie": {
+    "name": "Ireland",
+    "tariffs": [
+      { "target": "United States", "rate": "3.2%", "category": "Effective tariff rate (lowest of any EU member state, due to pharmaceutical exemptions)", "effectiveDate": "2026-05-01", "sourceUrl": "https://think.ing.com/articles/the-us-tariff-shock-same-negative-impact-different-drivers-in-2025-and-2026/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Limited Impact", "summary": "Despite being the US's largest single EU trading partner by export value, Ireland has the lowest effective tariff exposure in the EU because most pharmaceuticals and medical devices — its dominant export category — remain duty-free or capped under the EU-US framework; strong US demand for weight-loss drugs briefly boosted Irish exports even as broader EU-US trade weakened", "sourceUrl": "https://think.ing.com/articles/the-us-tariff-shock-same-negative-impact-different-drivers-in-2025-and-2026/" }
+    ],
+    "lastUpdated": "2026-04-08"
+  },
+  "tr": {
+    "name": "Turkey",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Turkey's Defense Industry Agency (SSB)", "type": "Sanctions (CAATSA Section 231)", "description": "The US sanctioned Turkey's top defense procurement agency in 2020 over its purchase of Russia's S-400 missile system, which also led to Turkey's removal from the F-35 fighter jet program; six Turkish-owned F-35s remain in US storage along with $1.7 billion Turkey already paid for them", "effectiveDate": "2020-12-14", "sourceUrl": "https://2017-2021.state.gov/the-united-states-sanctions-turkey-under-caatsa-231/" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Defense/Sanctions Dispute", "status": "De-escalating", "summary": "As of July 2026, President Trump has signaled he wants to lift the CAATSA sanctions and consider selling F-35s to Turkey, though any deal still hinges on Turkey fully removing its Russian S-400 system and faces pushback from members of Congress concerned about Turkey's ties to Russia and domestic political crackdowns", "sourceUrl": "https://breakingdefense.com/2026/07/f-35-for-turkey-trump-says-certainly-well-consider-reversing-ban/" }
+    ],
+    "lastUpdated": "2026-07-14"
+  },
+  "ge": {
+    "name": "Georgia",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Georgian officials involved in the Tbilisi crackdown", "type": "Financial/Visa", "description": "The US sanctioned four Georgian officials tied to violence against peaceful protesters in Tbilisi and imposed visa restrictions on roughly 90 more accused of undermining Georgian democracy, as the ruling Georgian Dream party cracked down on demonstrators opposing the suspension of EU accession talks", "effectiveDate": "2024-11-01", "sourceUrl": "https://www.cer.eu/insights/georgia-and-moldova-putins-dominoes" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Russia", "type": "Political Influence", "status": "Escalating", "summary": "Georgia's ruling party suspended EU accession talks until 2028 in November 2025 amid a political crisis marked by protests and democratic backsliding; European Parliament analysts say Georgia has simultaneously become a hub for Russian sanctions evasion, including large-scale re-export schemes and over 30,000 newly registered Russian-owned firms since 2022", "sourceUrl": "https://www.europarl.europa.eu/doceo/document/E-10-2025-004480_EN.html" }
+    ],
+    "lastUpdated": "2026-03-25"
+  },
+  "it": {
+    "name": "Italy",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "Wine (flat duty, fixed through 2029 under EU-US deal)", "effectiveDate": "2026-07-01", "sourceUrl": "https://terroirjournal.com/italian-wine-exports-tariff-reset/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "Italy is the largest single source of US wine imports (about one-third of all US wine imports, valued at over $2.3 billion), making it especially exposed to tariff volatility; a threatened tariff was imposed, struck down in court, then reimposed under a different statute before both sides settled on a fixed 15% rate through 2029. Italy's 2025 wine exports still fell 3.7%, a loss of roughly $340 million", "sourceUrl": "https://www.vinicolavedovato.com/en/the-new-us-tariffs-on-european-wine/" }
+    ],
+    "lastUpdated": "2026-07-01"
+  },
+  "es": {
+    "name": "Spain",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (down from 20%; steel/aluminum still at 50%)", "effectiveDate": "2026-07-24", "sourceUrl": "https://www.tariffstool.com/tariffs-from-spain" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "Spain's rate fell from 20% to 15% after the Supreme Court struck down the original IEEPA tariffs in February 2026, but Spanish wine exports to the US fell roughly 7% in mid-2025 amid the tariff turmoil and remain at a competitive disadvantage versus duty-free Chilean and Australian wine under those countries' existing US trade deals", "sourceUrl": "https://www.vinicolavedovato.com/en/the-new-us-tariffs-on-european-wine/" }
+    ],
+    "lastUpdated": "2026-07-24"
+  },
+  "md": {
+    "name": "Moldova",
+    "tariffs": [
+      { "target": "United States", "rate": "25%", "category": "General tariff (imposed via executive order)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.congress.gov/crs-product/R48664" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Russia", "type": "Election Interference", "status": "Active", "summary": "The US, alongside Canada and the UK, has sanctioned Russian and Moldovan individuals and entities (including state media outlet Rossiya Segodnya/RT) over interference in Moldova's 2024 presidential election and 2025 parliamentary elections; Moldova's pro-European government won despite an estimated $100 million Russian hybrid interference campaign", "sourceUrl": "https://www.congress.gov/crs-product/R48664" }
+    ],
+    "lastUpdated": "2025-08-28"
+  },
+  "at": {
+    "name": "Austria",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Digital Tax Dispute", "status": "Active", "summary": "Austria has one of Europe's longest-running digital services tax disputes with the US, dating to 2021 Section 301 tariff threats; as of June 26, 2026, President Trump threatened an immediate 100% tariff on any country implementing a digital services tax on US tech companies, a threat that would apply to Austria's existing DST and could override its EU trade agreement", "sourceUrl": "https://www.cbsnews.com/news/trump-digital-services-tax-tariff-europe/" }
+    ],
+    "lastUpdated": "2026-06-26"
+  },
+  "sk": {
+    "name": "Slovakia",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Energy Policy Dispute", "status": "Active", "summary": "Slovakia is 'almost 100% dependent' on Russian crude oil via the Druzhba pipeline and, alongside Hungary, has used an EU exemption to deepen rather than reduce that dependence; Slovak PM Robert Fico has repeatedly used his veto over EU Russia sanctions packages to extract concessions, most recently lifting a veto in July 2025 only after securing assurances from the European Commission", "sourceUrl": "https://abc17news.com/news/national-world/cnn-world/2025/11/07/orbans-plea-to-trump-poses-first-big-test-of-us-sanctions-on-russian-oil/" }
+    ],
+    "lastUpdated": "2025-11-08"
+  },
+  "cz": {
+    "name": "Czech Republic",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Russia", "type": "Energy Independence", "status": "Resolved", "summary": "Unlike neighboring Hungary and Slovakia, the Czech Republic successfully ended its dependence on Russian oil in April 2025 following infrastructure upgrades, and now serves as an example cited by US and EU officials that phasing out Russian energy is 'fully feasible' for the region", "sourceUrl": "https://foreignpolicy.com/2025/09/24/eu-hungary-slovakia-russia-oil-ukraine-war-trump-sanctions/" }
+    ],
+    "lastUpdated": "2025-09-24"
+  },
+  "am": {
+    "name": "Armenia",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Azerbaijan", "type": "Territorial/Peace Agreement", "status": "De-escalated", "summary": "On August 8, 2025, Armenia and Azerbaijan signed a US-brokered peace declaration at the White House, aiming to end nearly four decades of conflict including two full-scale wars; as part of the deal, the US secured exclusive development rights to a transit corridor through Armenian territory connecting Azerbaijan to its Nakhchivan exclave, named the 'Trump Route for International Peace and Prosperity' (TRIPP)", "sourceUrl": "https://time.com/7308564/trump-peace-deal-armenia-azerbaijan/" }
+    ],
+    "lastUpdated": "2025-08-09"
+  },
+  "az": {
+    "name": "Azerbaijan",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Armenia", "type": "Territorial/Peace Agreement", "status": "De-escalated", "summary": "Azerbaijan signed the same US-brokered peace declaration with Armenia on August 8, 2025, ending decades of conflict over the Nagorno-Karabakh region that killed over 30,000 people in the 1990s and thousands more in 2020; Russia has criticized the deal, which grants the US development rights over the strategic Zangezur transit corridor linking Azerbaijan to its Nakhchivan exclave", "sourceUrl": "https://www.forbes.com/sites/melikkaylan/2025/08/10/the-armenia-azerbaijan-peace-deal-and-the-new-trump-corridor/" }
+    ],
+    "lastUpdated": "2025-08-10"
+  },
+  "ee": {
+    "name": "Estonia",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Russia", "type": "Airspace/Security Incidents", "status": "Active", "summary": "Estonia has recorded repeated drone incursions from Russian and Belarusian airspace in 2025-2026, including a Ukrainian drone striking a power station chimney near the Russian border in March 2026 and a NATO fighter jet shooting down a drone over Estonian territory for the first time in May 2026, part of a wider pattern of spillover from the Russia-Ukraine war affecting all three Baltic states", "sourceUrl": "https://www.aljazeera.com/news/2026/3/25/estonia-latvia-report-drone-incursions-from-russian-airspace" }
+    ],
+    "lastUpdated": "2026-05-22"
+  },
+  "lv": {
+    "name": "Latvia",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Russia", "type": "Airspace/Security Incidents", "status": "Active", "summary": "Latvia has recorded the most drone incidents of any Baltic state (12 since 2025), including a drone exploding at an oil storage facility in Rēzekne in May 2026; a political dispute over the government's handling of these incursions contributed to the collapse of Latvia's ruling coalition in 2026", "sourceUrl": "https://novayagazeta.eu/en/articles/2026/05/21/at-least-24-drone-incidents-recorded-in-the-baltic-states-since-start-of-2025-en-news" }
+    ],
+    "lastUpdated": "2026-05-22"
+  },
+  "lt": {
+    "name": "Lithuania",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Russia / Belarus", "type": "Airspace/Security Incidents", "status": "Active", "summary": "Lithuania declared its first-ever red-level air threat alert in May 2026 after a drone appeared near the Belarusian border, prompting shelter warnings in Vilnius; the country has also recorded incursions by Russian-origin 'Gerbera' drones from Belarus, one found roughly 100 kilometers inside NATO territory carrying explosives", "sourceUrl": "https://novayagazeta.eu/en/articles/2026/05/21/at-least-24-drone-incidents-recorded-in-the-baltic-states-since-start-of-2025-en-news" }
+    ],
+    "lastUpdated": "2026-05-22"
+  },
+  "ro": {
+    "name": "Romania",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Military Cooperation", "status": "Active", "summary": "Romania's parliament approved allowing the US to use its air bases to refuel aircraft and deploy satellite communications equipment in support of military operations during the 2026 Iran war; Romania also signed a February 2026 US-brokered declaration establishing a 'Vertical Corridor' for American LNG to reach Ukraine via Greece, Bulgaria, and Romania, replacing Russian gas", "sourceUrl": "https://www.romania-insider.com/romania-other-eu-states-joint-declaration-us-security-natgas-supply-feb-2026" }
+    ],
+    "lastUpdated": "2026-03-11"
+  },
+  "bg": {
+    "name": "Bulgaria",
+    "tariffs": [
+      { "target": "United States", "rate": "30%", "category": "General tariff (combined EU baseline + reciprocal rate as of April 2025)", "effectiveDate": "2025-04-09", "sourceUrl": "https://www.novinite.com/articles/231642/How+Trump's+New+Tariffs+Will+Impact+Bulgaria+and+the+Balkans" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade & Energy Cooperation", "status": "Mixed", "summary": "Bulgaria faced a 30% combined US tariff as an EU member in April 2025, straining sectors like mechanical engineering and electronics, but also signed a February 2026 US-brokered declaration to host part of a new 'Vertical Corridor' bringing American LNG to Ukraine via Greece and Romania", "sourceUrl": "https://www.romania-insider.com/romania-other-eu-states-joint-declaration-us-security-natgas-supply-feb-2026" }
+    ],
+    "lastUpdated": "2026-02-24"
+  },
+  "gr": {
+    "name": "Greece",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Energy Cooperation", "status": "Active", "summary": "Greece signed a February 2026 US-brokered joint declaration establishing a 'Vertical Corridor' allowing American LNG (from firms including Exxon and Chevron) to flow from Greek terminals through Bulgaria, Romania, and on to Moldova and Ukraine, replacing Russian gas supply in Eastern Europe", "sourceUrl": "https://www.romania-insider.com/romania-other-eu-states-joint-declaration-us-security-natgas-supply-feb-2026" }
+    ],
+    "lastUpdated": "2026-02-24"
+  },
+  "ba": {
+    "name": "Bosnia and Herzegovina",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Milorad Dodik and 47 associated individuals/entities", "type": "Sanctions Lifted (formerly OFAC/E.O. 14033)", "description": "The Trump administration abruptly lifted 2022-era US sanctions on Bosnian Serb separatist leader Milorad Dodik, his family, top Republika Srpska officials, and dozens of affiliated companies in October 2025, reversing penalties imposed for undermining the 1995 Dayton Peace Accords; a bipartisan group of lawmakers has since pushed Trump to reimpose sanctions under 2026 NDAA requirements", "effectiveDate": "2025-10-29", "sourceUrl": "https://balkaninsight.com/2025/10/29/us-suddenly-lifts-sanctions-on-bosnian-serb-leader-dodik/" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic/Political", "status": "Active", "summary": "The abrupt October 2025 sanctions reversal marked a major shift in US Balkans policy, favoring the pro-Russian Dodik despite his history of threatening Republika Srpska's secession from Bosnia; a bipartisan Congressional letter in March 2026 warned the move violated new NDAA provisions requiring sanctions on anyone undermining Western Balkans stability", "sourceUrl": "https://thehill.com/policy/international/5804559-bipartisan-call-trump-milorad-dodik-bosnian-serb-leader/" }
+    ],
+    "lastUpdated": "2026-03-27"
+  },
+  "xk": {
+    "name": "Kosovo",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic Suspension", "status": "Active", "summary": "The US suspended its strategic dialogue with Kosovo in September 2025 — the main platform for bilateral engagement — after Kosovo's government failed to make progress creating an Association of Serb Municipalities in northern Kosovo, a key term of the 2023 EU-brokered Ohrid Agreement with Serbia", "sourceUrl": "https://www.atlanticcouncil.org/blogs/new-atlanticist/why-did-the-us-suspend-its-strategic-dialogue-with-kosovo-and-whats-next/" }
+    ],
+    "lastUpdated": "2026-02-11"
+  },
+  "al": {
+    "name": "Albania",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Alignment/Cooperation", "status": "Stable", "summary": "Albania expressed unwavering support for US and Israeli military action against Iran during the 2026 Iran war, aligning firmly with Washington, and signed a March 2025 Joint Declaration on Defense Cooperation with Croatia and Kosovo covering training, procurement, and logistics coordination", "sourceUrl": "https://europeanwesternbalkans.com/2026/03/17/western-balkan-countries-split-between-neutrality-and-the-support-to-usa/" }
+    ],
+    "lastUpdated": "2026-03-19"
+  },
+  "mk": {
+    "name": "North Macedonia",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Alignment/Cooperation", "status": "Stable", "summary": "North Macedonia expressed unwavering support for the US and Israel during the 2026 Iran war and hosted NATO Secretary General Mark Rutte in early March 2026, who called Iran 'an exporter of chaos'; the country made incremental progress toward EU accession in 2025", "sourceUrl": "https://europeanwesternbalkans.com/2026/03/17/western-balkan-countries-split-between-neutrality-and-the-support-to-usa/" }
+    ],
+    "lastUpdated": "2026-03-19"
+  },
+  "me": {
+    "name": "Montenegro",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Alignment/Cooperation", "status": "Stable", "summary": "Montenegro fully aligned with US and EU policy during the 2026 Iran war, including the EU's terrorist designation of Iran's Revolutionary Guard; in 2026 Montenegro also chairs the Berlin Process on Western Balkans economic integration and, from November, the Council of Europe's Committee of Ministers", "sourceUrl": "https://www.atlanticcouncil.org/blogs/2026-will-be-a-big-year-in-the-western-balkans-heres-what-to-watch/" }
+    ],
+    "lastUpdated": "2026-02-11"
+  },
+  "hr": {
+    "name": "Croatia",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Defense Cooperation", "status": "Active", "summary": "Croatia signed a March 2025 Joint Declaration on Defense Cooperation with Albania and Kosovo, and serves as the NATO framework nation for the multinational battle group stationed in Bulgaria, which reached full operational readiness in December 2025 as part of the alliance's eastern flank buildup against Russia", "sourceUrl": "https://trendsresearch.org/insight/the-protracted-path-of-the-western-balkans-toward-nato-integration/" }
+    ],
+    "lastUpdated": "2025-12-12"
+  },
+  "dk": {
+    "name": "Denmark",
+    "tariffs": [
+      { "target": "United States", "rate": "0% (threatened tariff withdrawn)", "category": "General tariff — Greenland dispute", "effectiveDate": "2026-01-21", "sourceUrl": "https://www.cnn.com/2026/01/18/business/europe-greenland-trump-tariffs-trade" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Sovereignty/Trade Dispute", "status": "De-escalated", "summary": "President Trump threatened Denmark and seven NATO allies with a 10% tariff (rising to 25%) on January 17, 2026 over his demand to purchase Greenland, an autonomous Danish territory, after European allies sent troops for an Arctic security exercise; the US abruptly withdrew the threat on January 21, and the EU in turn paused its own prepared retaliatory tariffs", "sourceUrl": "https://www.cnn.com/2026/01/18/business/europe-greenland-trump-tariffs-trade" }
+    ],
+    "lastUpdated": "2026-01-21"
+  },
+  "no": {
+    "name": "Norway",
+    "tariffs": [
+      { "target": "United States", "rate": "0% (threatened tariff withdrawn)", "category": "General tariff — Greenland dispute", "effectiveDate": "2026-01-21", "sourceUrl": "https://www.supplychaindive.com/news/trump-threatens-25-europe-tariff-in-push-for-us-greenland-deal/809929/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Sovereignty/Trade Dispute", "status": "De-escalated", "summary": "Norway (not an EU member) was one of eight NATO countries threatened with a 10-25% tariff in January 2026 over the Greenland dispute after joining a Danish-led Arctic security exercise; Norway also separately faces a standard 15% reciprocal tariff under a different track. The Greenland-specific threat was withdrawn January 21, 2026", "sourceUrl": "https://www.supplychaindive.com/news/trump-threatens-25-europe-tariff-in-push-for-us-greenland-deal/809929/" }
+    ],
+    "lastUpdated": "2026-01-21"
+  },
+  "se": {
+    "name": "Sweden",
+    "tariffs": [
+      { "target": "United States", "rate": "0% (threatened tariff withdrawn)", "category": "General tariff — Greenland dispute", "effectiveDate": "2026-01-21", "sourceUrl": "https://www.nbcnews.com/business/economy/trump-denmark-european-tariffs-greenland-deal-rcna254551" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Sovereignty/Trade Dispute", "status": "De-escalated", "summary": "Sweden joined Denmark and six other NATO allies in a joint statement calling Trump's January 2026 Greenland tariff threat a risk of a 'dangerous downward spiral' for transatlantic relations; the threat was withdrawn days later on January 21", "sourceUrl": "https://www.nbcnews.com/business/economy/trump-denmark-european-tariffs-greenland-deal-rcna254551" }
+    ],
+    "lastUpdated": "2026-01-21"
+  },
+  "fi": {
+    "name": "Finland",
+    "tariffs": [
+      { "target": "United States", "rate": "0% (threatened tariff withdrawn)", "category": "General tariff — Greenland dispute", "effectiveDate": "2026-01-21", "sourceUrl": "https://www.cbsnews.com/detroit/news/trump-greenland-military-tariffs" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Sovereignty/Trade Dispute", "status": "De-escalated", "summary": "Finland was named in Trump's January 17, 2026 threat of tariffs against NATO countries involved in the Greenland Arctic security exercise; the threat, which would have raised duties to 25% by June 1, was withdrawn on January 21 following an EU emergency summit", "sourceUrl": "https://www.cbsnews.com/detroit/news/trump-greenland-military-tariffs" }
+    ],
+    "lastUpdated": "2026-01-21"
+  },
+  "pt": {
+    "name": "Portugal",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (average effective rate up from 2.5% in 2024)", "effectiveDate": "2026-02-01", "sourceUrl": "https://usafacts.org/answers/what-is-the-average-us-tariff-rate-overall/countries/portugal/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-04-23"
+  },
+  "cy": {
+    "name": "Cyprus",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 surcharge, replaced the 15% IEEPA structure Feb 2026)", "effectiveDate": "2026-02-24", "sourceUrl": "https://policyrisk.com/countries/cy" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Ongoing", "summary": "Cyprus's small $79 million in annual US-bound exports (up 35% in 2025) has been shaped by 11 separate changes to EU-wide US tariff policy since 2025; steel and aluminum remain excluded from EU trade-agreement treatment at 50%", "sourceUrl": "https://policyrisk.com/countries/cy" }
+    ],
+    "lastUpdated": "2026-06-26"
+  },
+  "be": {
+    "name": "Belgium",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (EU-wide rate under the July 2025 framework)", "effectiveDate": "2026-07-01", "sourceUrl": "https://www.tariffstool.com/guides/eu-us-trade-deal-15-percent-tariff-live" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-07-05"
+  },
+  "gl": {
+    "name": "Greenland",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Sovereignty Dispute", "status": "Active", "summary": "President Trump has repeatedly pushed to acquire Greenland, an autonomous Danish territory, for strategic and mineral resource reasons, escalating in January 2026 to threats of tariffs on Denmark and seven NATO allies over the dispute; a January 14, 2026 US-Danish-Greenlandic meeting in Washington established a working group exploring options including a renegotiated 1951 Defense of Greenland Agreement or an independent Greenland joining NATO security frameworks similar to Iceland, without resolving the core sovereignty question", "sourceUrl": "https://trendsresearch.org/insight/trump-and-the-transatlantic-alliance-greenland-tariffs-and-nato-under-strain/" }
+    ],
+    "lastUpdated": "2026-01-19"
+  },
+  "is": {
+    "name": "Iceland",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Strategic Alignment", "status": "Stable", "summary": "Iceland, a NATO founding member with no standing military, has been cited by US and European officials as a model for how an independent Greenland might participate in NATO's Arctic security framework while maintaining full local autonomy, as debated during the 2026 US-Denmark-Greenland dispute over Greenland's sovereignty", "sourceUrl": "https://trendsresearch.org/insight/trump-and-the-transatlantic-alliance-greenland-tariffs-and-nato-under-strain/" }
+    ],
+    "lastUpdated": "2026-01-19"
+  },
+  "il": {
+    "name": "Israel",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Iran", "type": "Military", "status": "Active", "summary": "Israel and the US jointly struck Iran on February 28, 2026, killing Supreme Leader Ali Khamenei, in a war that has seen multiple collapsed ceasefires through mid-2026; the White House has separately made a US-Saudi civil nuclear deal contingent on Saudi Arabia normalizing relations with Israel via the Abraham Accords", "sourceUrl": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran" }
+    ],
+    "lastUpdated": "2026-07-23"
+  },
+  "sa": {
+    "name": "Saudi Arabia",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-09", "sourceUrl": "https://www.pwc.com/m1/en/services/tax/me-tax-legal-news/2025/impact-us-tariff-decisions-on-middle-east-businesses-what-to-do-now.html" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Israel", "type": "Diplomatic Normalization", "status": "Under Negotiation", "summary": "The White House confirmed on July 23, 2026 that a landmark US-Saudi civil nuclear energy deal is contingent on Saudi Arabia signing the Abraham Accords and normalizing relations with Israel — a condition not disclosed when the nuclear deal was first announced; Trump's May 2025 Gulf visit separately produced over $2 trillion in energy, defense, and AI deals with Saudi Arabia, Qatar, and the UAE", "sourceUrl": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-congress-2026-midterm-iran-ukraine-doj-dhs-ice-live-updates-rcna588796" }
+    ],
+    "lastUpdated": "2026-07-23"
+  },
+  "ae": {
+    "name": "United Arab Emirates",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, unchanged from prior IEEPA rate)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.tariffstool.com/tariffs-from-uae" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade & Investment", "status": "Cooperative", "summary": "The UAE pledged $440 billion in US energy, defense, and AI investments during President Trump's May 2025 Gulf visit; as a major aluminum exporter, the UAE also faced supply disruption in 2026 when the Strait of Hormuz briefly closed amid the Iran war", "sourceUrl": "https://studies.aljazeera.net/en/analyses/us-tariffs-and-middle-east-calculations-and-implications" }
+    ],
+    "lastUpdated": "2026-05-24"
+  },
+  "qa": {
+    "name": "Qatar",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-09", "sourceUrl": "https://www.pwc.com/m1/en/services/tax/me-tax-legal-news/2025/impact-us-tariff-decisions-on-middle-east-businesses-what-to-do-now.html" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade & Investment", "status": "Cooperative", "summary": "Qatar's Prime Minister met with President Trump on July 16, 2025 to formalize a $243.5 billion investment package first announced during Trump's May 2025 Doha visit, centered on a $96 billion Qatar Airways deal to acquire 210 Boeing aircraft (787s and 777Xs) powered by GE Aerospace engines, projected to support over 154,000 US jobs annually", "sourceUrl": "https://www.middleeastbriefing.com/news/bahrain-and-qatar-sign-big-us-deals-implications-for-trade-and-tariff-policy/" }
+    ],
+    "lastUpdated": "2025-07-22"
+  },
+  "jp": {
+    "name": "Japan",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (secured through investment commitments) plus 25% Section 232 on autos", "effectiveDate": "2025-07-22", "sourceUrl": "https://www.namm.org/policy/business-compliance/executive-orders-calling-tariffs-explained" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-06-08"
+  },
+  "kr": {
+    "name": "South Korea",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "General tariff (steel, aluminum, copper excluded at 50%)", "effectiveDate": "2025-07-30", "sourceUrl": "https://www.namm.org/policy/business-compliance/executive-orders-calling-tariffs-explained" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "South Korea secured a 15% tariff rate and most-favored-nation treatment on semiconductors and pharmaceuticals in exchange for a $150 billion shipbuilding investment commitment; core metals (steel, aluminum, copper) remain excluded from the preferential rate at 50%", "sourceUrl": "https://dimerco.com/news-press/us-tariff-update-2025/" }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "tw": {
+    "name": "Taiwan",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from ~32% IEEPA rate) plus 25% Section 232 on semiconductors", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.tariffstool.com/guides/us-tariff-rate-by-country-list-2026" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-06-08"
+  },
+  "vn": {
+    "name": "Vietnam",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from a 46% IEEPA rate)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.tariffstool.com/guides/us-tariff-rate-by-country-list-2026" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "Vietnam became a major alternative sourcing destination during earlier rounds of US-China tariff escalation and initially faced one of the highest reciprocal rates in the region (46%); duties paid under that rate became refundable after the Supreme Court struck down IEEPA tariffs in February 2026", "sourceUrl": "https://www.tariffstool.com/guides/us-tariff-rate-by-country-list-2026" }
+    ],
+    "lastUpdated": "2026-07-05"
+  },
+  "in": {
+    "name": "India",
+    "tariffs": [
+      { "target": "United States", "rate": "18%", "category": "General tariff (down from a peak of 50%)", "effectiveDate": "2026-02-02", "sourceUrl": "https://www.aljazeera.com/economy/2026/2/2/trump-to-slash-us-tariffs-on-india-from-50-percent-to-18-percent" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade & Energy Dispute", "status": "Active", "summary": "The US imposed a 25% reciprocal tariff on India in August 2025, then doubled it to 50% days later — the highest rate on any trading partner — specifically to punish India for buying Russian oil. Trump cut the rate to 18% in February 2026 after India agreed to curb Russian oil purchases and buy more US energy, though India never formally codified an oil-import commitment. As of August 7, 2026, the US Senate passed the Graham Act authorizing tariffs up to 100% on countries still buying significant Russian oil, directly threatening India again", "sourceUrl": "https://en.wikipedia.org/wiki/2025_United_States%E2%80%93India_diplomatic_and_trade_crisis" }
+    ],
+    "lastUpdated": "2026-08-10"
+  },
+  "sy": {
+    "name": "Syria",
+    "tariffs": [
+      { "target": "United States", "rate": "41%", "category": "Reciprocal tariff (announced April 2025; largely moot given sanctions relief)", "effectiveDate": "2025-04-09", "sourceUrl": "https://www.middleeasteye.net/explainers/breaking-down-trumps-tariffs-middle-east" }
+    ],
+    "sanctions": [
+      { "target": "Syrian Government (historical)", "type": "Comprehensive Embargo — Lifted", "description": "The US no longer maintains a comprehensive Syria sanctions program. President Trump announced the lift in a May 13, 2025 Riyadh speech, and on June 30, 2025 signed an Executive Order revoking six foundational sanctions orders dating back to 2004, effective July 1, 2025 — ending 45 years of escalating US sanctions on Syria", "effectiveDate": "2025-07-01", "sourceUrl": "https://www.state.gov/syria-sanctions" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic Realignment", "status": "De-escalated", "summary": "Following the fall of the Assad regime, Syria's new government under al-Sharaa has distanced itself from Iran and aligned with Gulf Cooperation Council states like Saudi Arabia and the UAE; sanctions remain only on Bashar al-Assad, his associates, human rights abusers, Captagon traffickers, and Iran-linked proxies", "sourceUrl": "https://arabcenterdc.org/resource/lifting-us-sanctions-on-syria-a-new-chapter-for-damascus-and-beirut/" }
+    ],
+    "lastUpdated": "2026-03-10"
+  },
+  "ye": {
+    "name": "Yemen",
+    "tariffs": [],
+    "sanctions": [
+      { "target": "Houthi (Ansarallah) financial and smuggling networks", "type": "Sectoral (OFAC), Foreign Terrorist Organization designation", "description": "The US has repeatedly sanctioned Houthi-linked petroleum smuggling, weapons procurement, and money laundering networks throughout 2025-2026, including a January 16, 2026 package targeting 21 individuals, entities, and one vessel; the Houthis were redesignated a Foreign Terrorist Organization in March 2025", "effectiveDate": "2026-01-16", "sourceUrl": "https://www.steptoe.com/en/news-publications/stepwise-risk-outlook/sanctions-update-january-26-2026.html" }
+    ],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States / Israel", "type": "Military", "status": "Volatile Ceasefire", "summary": "Houthi attacks on Red Sea shipping (2023-2025) killed at least nine mariners; a US military campaign against the Houthis ended with an Omani-brokered ceasefire in May 2025, though tensions spiked again in September 2025 after Israeli strikes on Yemen killed 35 people, a day after the Houthi prime minister was assassinated", "sourceUrl": "https://www.aljazeera.com/news/2025/9/11/us-issues-slaps-new-sanctions-on-yemens-houthis-as-regional-tensions-spike" }
+    ],
+    "lastUpdated": "2026-01-26"
+  },
+  "iq": {
+    "name": "Iraq",
+    "tariffs": [
+      { "target": "United States", "rate": "39%", "category": "Reciprocal tariff (announced April 2025, among the highest in the region)", "effectiveDate": "2025-04-09", "sourceUrl": "https://www.middleeasteye.net/explainers/breaking-down-trumps-tariffs-middle-east" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-08-01"
+  },
+  "pk": {
+    "name": "Pakistan",
+    "tariffs": [
+      { "target": "United States", "rate": "19%", "category": "General tariff (bilateral trade deal)", "effectiveDate": "2025-07-31", "sourceUrl": "https://en.wikipedia.org/wiki/Pakistan%E2%80%93United_States_trade_deal" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Afghanistan", "type": "Military (separate conflict)", "status": "Active", "summary": "Pakistan adopted official neutrality in the 2026 Iran war, condemning attacks on both Iran and the Gulf states while mediating a two-week ceasefire and hosting the first round of the Islamabad Talks in April 2026 — all while simultaneously fighting a separate armed conflict with Afghanistan along their shared border. Pakistan and the US concluded a bilateral trade deal in July 2025 that included a first shipment of US crude oil in October 2025", "sourceUrl": "https://en.wikipedia.org/wiki/Pakistan_in_the_2026_Iran_war" }
+    ],
+    "lastUpdated": "2026-04-11"
+  },
+  "lb": {
+    "name": "Lebanon",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Israel / Hezbollah", "type": "Military/Disarmament Process", "status": "Active", "summary": "Lebanon's new government adopted the US-informed 'National Shield' (Dir al-Watan) plan in September 2025 to disarm Hezbollah in phases and reassert the state's monopoly on weapons; the Lebanese Armed Forces gained operational control south of the Litani River for the first time in 40 years, backed by $230 million in US military aid approved in October 2025. Hezbollah rejects full disarmament, and after the US and Israel struck Iran in February 2026, Hezbollah fired projectiles at Israel in solidarity, triggering renewed strikes and a US-brokered 10-day truce in April 2026", "sourceUrl": "https://jstreet.org/progress-and-challenges-on-israels-northern-borders-syria-and-lebanon-in-2026/" }
+    ],
+    "lastUpdated": "2026-06-30"
+  },
+  "jo": {
+    "name": "Jordan",
+    "tariffs": [
+      { "target": "United States", "rate": "0%", "category": "General tariff (new July 2026 reciprocal trade agreement; original 20% penalty reversed via diplomacy)", "effectiveDate": "2026-07-01", "sourceUrl": "https://www.whitehouse.gov/briefings-statements/2026/07/agreement-between-the-united-states-of-america-and-the-hashemite-kingdom-of-jordan-on-reciprocal-trade/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute (Resolved)", "status": "De-escalated", "summary": "Despite being a Major Non-NATO Ally hosting American troops and one of only two Arab states with a peace treaty with Israel, Jordan was hit with a 20% reciprocal tariff in April 2025 and a temporary suspension of financial aid — a move widely criticized as punishing a loyal partner; diplomacy rolled back the aid freeze, and a new reciprocal trade agreement was signed in July 2026 building on the existing 2001 US-Jordan Free Trade Agreement. The US has provided Jordan roughly $33.8 billion in bilateral aid since the 1950s", "sourceUrl": "https://www.washingtoninstitute.org/policy-analysis/balancing-national-security-and-economic-priorities-us-jordan-relationship" }
+    ],
+    "lastUpdated": "2026-07-01"
+  },
+  "eg": {
+    "name": "Egypt",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Aid & Strategic Partnership", "status": "Stable", "summary": "Egypt has received nearly $90 billion in cumulative US bilateral aid since 1946 and, alongside Israel, was specifically exempted from President Trump's 2025 global foreign-aid pause; the FY2026 NDAA separately authorizes new US defense assistance along Egypt's border with Sudan. Egypt controls the Suez Canal, one of the world's most critical maritime chokepoints, reinforcing its enduring strategic importance to Washington", "sourceUrl": "https://www.congress.gov/crs-product/RL33003" }
+    ],
+    "lastUpdated": "2026-02-25"
+  },
+  "af": {
+    "name": "Afghanistan",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Aid Suspension", "status": "Active", "summary": "The US suspended all foreign aid to Afghanistan in February 2025 under Executive Order 14169, cutting off an estimated $1.7 billion for the year; the move caused roughly 50 aid organizations to partly or wholly suspend operations, deepening a humanitarian crisis under Taliban rule, which the US and most other governments still do not formally recognize", "sourceUrl": "https://en.wikipedia.org/wiki/Foreign_aid_to_Afghanistan" }
+    ],
+    "lastUpdated": "2025-09-15"
+  },
+  "kz": {
+    "name": "Kazakhstan",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Israel", "type": "Diplomatic Normalization", "status": "Resolved", "summary": "Kazakhstan officially joined the Abraham Accords in November 2025 during a White House summit with the five Central Asian leaders, with Trump personally announcing the news; the same summit produced a $1.1 billion deal granting a US firm development rights to Kazakhstan's critical mineral deposits, plus a separate letter of intent exploring up to $700 million to finance tungsten development in the country. Separately, Kazakhstan is pressing a $4.9 billion environmental fine against the ExxonMobil/Shell-led operator of the Kashagan oil field, despite an international tribunal order to halt enforcement", "sourceUrl": "https://euronews.com/2025/11/08/kazakhstan-to-join-abraham-accords-as-it-signs-critical-minerals-and-trade-deals-with-the-" }
+    ],
+    "lastUpdated": "2026-08-04"
+  },
+  "uz": {
+    "name": "Uzbekistan",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Investment Partnership", "status": "Cooperative", "summary": "The US and Uzbekistan signed a 'Joint Investment Framework' in February 2026 through the US International Development Finance Corp, prioritizing US investment in Uzbekistan's exploration, extraction, and processing of critical minerals like tungsten, copper, and uranium, and proposing a new US-Uzbekistan Joint Investment Holding Company; the deal followed a November 2025 White House summit where Trump hosted the leaders of all five Central Asian states", "sourceUrl": "https://www.usnews.com/news/top-news/articles/2026-02-18/us-and-uzbekistan-sign-critical-minerals-pact" }
+    ],
+    "lastUpdated": "2026-02-19"
+  },
+  "om": {
+    "name": "Oman",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States / Houthis", "type": "Diplomatic Mediation", "status": "Resolved", "summary": "Oman has served as the essential mediator between the US and Yemen's Houthi movement for years, brokering a May 6, 2025 ceasefire that ended the US-UK bombing campaign in Yemen after the Houthis agreed to stop attacking US vessels; Oman also facilitated the release of the Galaxy Leader crew and has hosted broader US-Iran nuclear talks, even as its territory has reportedly been used as a smuggling conduit for weapons reaching the Houthis. The US-Oman Free Trade Agreement, in effect since 2009, gives virtually all industrial and consumer goods duty-free access", "sourceUrl": "https://www.congress.gov/crs-product/RS21534" }
+    ],
+    "lastUpdated": "2025-11-25"
+  },
+  "bd": {
+    "name": "Bangladesh",
+    "tariffs": [
+      { "target": "United States", "rate": "19%", "category": "General tariff (down from 20%, itself already reduced from an initial 35%)", "effectiveDate": "2026-02-12", "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-united-states-and-bangladesh-reach-agreement-reciprocal-trade" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "Bangladesh's tariff rate fell in stages — from an initial 35% in April 2025, to 20% after intense July 2025 negotiations, to a final 19% under a February 2026 reciprocal trade deal — in exchange for Bangladesh committing to buy $3.5 billion in US wheat, soy, cotton, and corn, recognize US vehicle and food safety standards, and expand market access for a range of US goods", "sourceUrl": "https://www.thomasnet.com/insights/u-s-bangladesh-trade-deal/" }
+    ],
+    "lastUpdated": "2026-02-12"
+  },
+  "np": {
+    "name": "Nepal",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.theboardiq.com/tariffs/nepal" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Measure", "status": "Favorable", "summary": "Nepal ended up an unintended winner of the 2025 tariff wave: its 10% baseline rate is far lower than the much steeper tariffs slapped on regional garment-export competitors like Bangladesh, Cambodia, and Sri Lanka, giving Nepali exporters a sudden competitive edge and drawing new foreign investment interest in export-oriented sectors", "sourceUrl": "https://www.theboardiq.com/tariffs/nepal" }
+    ],
+    "lastUpdated": "2025-10-15"
+  },
+  "th": {
+    "name": "Thailand",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from an initial 36%)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.tariffstool.com/tariffs-from-thailand" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Cambodia", "type": "Border War / Tariff Leverage", "status": "Fragile Ceasefire", "summary": "President Trump personally halted deadly Thailand-Cambodia border fighting in July 2025 by threatening to withhold both countries' trade deals unless they agreed to a ceasefire; Thailand's tariff dropped from 36% to 19% only after the truce held. Fighting reignited in December 2025 despite the deal, killing at least 26 Thai soldiers before a second ceasefire was signed December 27, 2025", "sourceUrl": "https://www.npr.org/2025/12/27/g-s1-103785/thailand-cambodia-new-ceasefire-agreement" }
+    ],
+    "lastUpdated": "2026-02-24"
+  },
+  "kh": {
+    "name": "Cambodia",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from an initial 49%)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.tariffstool.com/guides/us-tariff-rate-by-country-list-2026" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Thailand", "type": "Border War / Tariff Leverage", "status": "Fragile Ceasefire", "summary": "Cambodia's tariff rate, once as high as 49%, fell only after President Trump used the threat of losing US trade access to force a ceasefire in its border war with Thailand in July 2025, which displaced roughly 260,000 people and killed dozens; the truce collapsed in December 2025 into the worst fighting in years before a second ceasefire was signed December 27, mediated by Malaysia and monitored by ASEAN observers", "sourceUrl": "https://www.cnn.com/2025/12/27/asia/thailand-cambodia-ceasefire-fighting-intl-hnk" }
+    ],
+    "lastUpdated": "2025-12-27"
+  },
+  "my": {
+    "name": "Malaysia",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from a 25% rate)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.malaymail.com/news/malaysia/2025/08/01/us-lowers-tariff-on-malaysian-imports-to-19pc-effective-august-1/186010" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-02-24"
+  },
+  "id": {
+    "name": "Indonesia",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from an initial 32%)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.tariffstool.com/guides/us-tariff-rate-by-country-list-2026" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-02-24"
+  },
+  "ph": {
+    "name": "Philippines",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from a 19% negotiated rate)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.sidley.com/en/insights/newsupdates/2025/08/implications-of-us-tariffs-on-southeast-asia-navigating-the-trade-tumult" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-02-24"
+  },
+  "sg": {
+    "name": "Singapore",
+    "tariffs": [
+      { "target": "United States", "rate": "12.5%", "category": "Proposed Section 301 tariff (forced-labor enforcement, alongside 53 other countries)", "effectiveDate": "2026-07-01", "sourceUrl": "https://www.congress.gov/crs-product/IF10228" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "Singapore has rejected the July 2026 US allegation that it fails to enforce bans on forced-labor goods; PM Lawrence Wong called the earlier April 2025 universal 10% tariff announcement 'a profound turning point' toward 'a more arbitrary, protectionist and dangerous' global order, despite Singapore having no formal reciprocal tariff imposed on it at the time", "sourceUrl": "https://www.congress.gov/crs-product/IF10228" }
+    ],
+    "lastUpdated": "2026-07-01"
+  },
+  "mm": {
+    "name": "Myanmar",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from an initial 44%, among the highest imposed)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.malaymail.com/news/malaysia/2025/08/01/us-lowers-tariff-on-malaysian-imports-to-19pc-effective-august-1/186010" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "Internal armed groups", "type": "Civil War", "status": "Active", "summary": "Myanmar's civil war, ongoing since the military's 2021 coup, pits the junta (Tatmadaw) against the National Unity Government's resistance forces and numerous ethnic armed organizations; the conflict has spilled across borders into Bangladesh, India, and Thailand, driving refugee flows and occasional cross-border artillery incidents", "sourceUrl": "https://en.wikipedia.org/wiki/Spillover_of_the_Myanmar_civil_war_(2021%E2%80%93present)" }
+    ],
+    "lastUpdated": "2026-01-01"
+  },
+  "lk": {
+    "name": "Sri Lanka",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (moved from the proposed 12.5% category after addressing forced-labor concerns)", "effectiveDate": "2026-07-27", "sourceUrl": "https://dimerco.com/us-tariff-update-2026/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-07-27"
+  },
+  "kw": {
+    "name": "Kuwait",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline; no country-specific action)", "effectiveDate": "2026-02-24", "sourceUrl": "https://policyrisk.com/countries/kw" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-05-01"
+  },
+  "bh": {
+    "name": "Bahrain",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-09", "sourceUrl": "https://www.middleeastbriefing.com/news/bahrain-and-qatar-sign-big-us-deals-implications-for-trade-and-tariff-policy/" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade & Investment", "status": "Cooperative", "summary": "Bahrain's Crown Prince pledged over $17 billion in US investment during a July 16, 2025 White House visit, including a $7 billion Gulf Air deal with Boeing and General Electric; Bahrain is separately investing $2 billion in US downstream aluminum processing, a move analysts say could give Manama leverage to seek relief from the 25% Section 232 aluminum tariff", "sourceUrl": "https://www.washingtoninstitute.org/policy-analysis/bahrain-doubles-down-us-economic-ties" }
+    ],
+    "lastUpdated": "2025-07-23"
+  },
+  "tj": {
+    "name": "Tajikistan",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Diplomatic Restart", "status": "Cooperative", "summary": "Secretary of State Marco Rubio met with Tajikistan's Foreign Minister in Washington in July 2026, restarting bilateral talks after a four-year pause, with critical minerals — particularly antimony, used in munitions and battery production — topping the agenda alongside counterterrorism cooperation; Tajikistan was among the five Central Asian states hosted by Trump at a November 2025 White House summit", "sourceUrl": "https://newlinesinstitute.org/central-asia-center/central-asia-roundup-july-2026/" }
+    ],
+    "lastUpdated": "2026-07-25"
+  },
+  "mn": {
+    "name": "Mongolia",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2026-02-24", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/mongolia" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-01-01"
+  },
+  "la": {
+    "name": "Laos",
+    "tariffs": [
+      { "target": "United States", "rate": "40%", "category": "Reciprocal tariff (tied with Myanmar for second-highest in the world after Syria)", "effectiveDate": "2025-08-01", "sourceUrl": "https://tradingeconomics.com/united-states/balance-of-trade/news/474492" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [
+      { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "The White House imposed a 40% tariff on Laos in August 2025 — the world's second-highest after Syria's 41% — without providing a clear public explanation, despite Laos having only $803 million in exports to the US in 2024; the US Commerce Department is separately investigating whether Lao solar panel exports are being used to bypass China-specific duties, and Washington has expressed concern over Laos's deepening debt dependence on China", "sourceUrl": "https://www.theboardiq.com/tariffs/laos" }
+    ],
+    "lastUpdated": "2026-01-15"
+  },
+  "bn": {
+    "name": "Brunei",
+    "tariffs": [
+      { "target": "United States", "rate": "25%", "category": "Reciprocal tariff", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.lowyinstitute.org/publications/navigating-storm-southeast-asia-global-trade-shocks" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-03-26"
+  },
+  "bt": {
+    "name": "Bhutan",
+    "tariffs": [],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-01-01"
+  },
+  "kg": {
+    "name": "Kyrgyzstan",
+    "tariffs": [
+      { "target": "United States", "rate": "17.5%", "category": "Effective rate on general goods (MFN base + Section 122 layer)", "effectiveDate": "2026-01-01", "sourceUrl": "https://www.calcmytariff.com/country/kyrgyzstan/bags-luggage" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [],
+  "lastUpdated": "2026-01-01"
+},
+  "au": {
+    "name": "Australia",
+    "tariffs": [
+      { "target": "United States", "rate": "12.5%", "category": "Section 301 tariff (forced-labor enforcement determination, alongside 37 other economies)", "effectiveDate": "2026-07-23", "sourceUrl": "https://www.dfat.gov.au/trade/trade-and-investment/latest-us-tariffs" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-07-23"
+  },
+  "nz": {
+    "name": "New Zealand",
+    "tariffs": [
+      { "target": "United States", "rate": "12.5%", "category": "Section 301 tariff (forced-labor enforcement; some exemptions for beef and kiwifruit)", "effectiveDate": "2026-07-23", "sourceUrl": "https://www.tradebarriers.govt.nz/en/faqs" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2026-07-23"
+  },
+  "pg": {
+    "name": "Papua New Guinea",
+    "tariffs": [
+      { "target": "United States", "rate": "0%", "category": "General effective tariff rate (Section 122 surcharge lapsed July 24, 2026)", "effectiveDate": "2026-07-24", "sourceUrl": "https://www.calcmytariff.com/country/papua-new-guinea" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [],
+  "lastUpdated": "2026-07-24"
+},
+  "fj": {
+    "name": "Fiji",
+    "tariffs": [
+      { "target": "United States", "rate": "15%", "category": "Reciprocal tariff", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.tariffcentral.org/tariffs/fiji" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade & Investment Framework", "status": "Cooperative", "summary": "Fiji became the first developing Pacific Island state to sign a Trade and Investment Framework Agreement (TIFA) with the US, creating a platform to expand bilateral trade and investment ties and giving other small Pacific Island states the option to join future TIFA discussions as observers — part of a broader US strategy to strengthen its economic presence across the Indo-Pacific", "sourceUrl": "https://ustr.gov/countries-regions/southeast-asia-pacific/pacific-islands-0" }
+  ],
+  "lastUpdated": "2025-08-07"
+},
+  "pf": {
+    "name": "French Polynesia",
+    "tariffs": [
+      { "target": "United States", "rate": "10%", "category": "General tariff (blanket reciprocal baseline; not subject to individual country-specific actions)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.theboardiq.com/tariffs/french-polynesia" }
+    ],
+    "sanctions": [],
+    "bannedGoods": [],
+    "conflicts": [],
+    "lastUpdated": "2025-10-01"
+  },
+  "mh": {
+  "name": "Marshall Islands",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Compact of Free Association", "status": "Cooperative", "summary": "The Marshall Islands renewed its Compact of Free Association with the US in October 2023, extending decades-old arrangements that grant the US military exclusive access to its vast ocean territory in exchange for funding and the right for its citizens to live and work in the US; the renewal came with more generous funding amid rising US-China competition in the Pacific, sharpened after Nauru abruptly switched diplomatic recognition from Taiwan to China in January 2024 in exchange for a reported $100 million", "sourceUrl": "https://www.csis.org/analysis/compacts-free-association-congress-and-strategic-competition-pacific" }
+  ],
+  "lastUpdated": "2025-09-25"
+},
+"fm": {
+  "name": "Micronesia",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Compact of Free Association", "status": "Cooperative", "summary": "The Federated States of Micronesia renewed its Compact of Free Association with the US, one of three Freely Associated States (alongside Palau and the Marshall Islands) granting Washington military access across a strategically vital swath of the Pacific in exchange for funding and migration rights; the US Department of the Interior has said the compacts 'reinforce alliances that support a free and open Indo-Pacific' amid escalating Chinese diplomatic outreach in the region", "sourceUrl": "https://www.congress.gov/crs-product/IF12194" }
+  ],
+  "lastUpdated": "2025-12-03"
+},
+"pw": {
+  "name": "Palau",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Compact of Free Association", "status": "Cooperative", "summary": "Palau renewed its Compact of Free Association with the US in 2025, receiving roughly double the funding it was originally promised in the new deal; the Freely Associated States play a central role in supporting the US security presence in the Pacific amid intensifying strategic competition with China in the region", "sourceUrl": "https://www.csis.org/analysis/compacts-free-association-congress-and-strategic-competition-pacific" }
+  ],
+  "lastUpdated": "2025-09-25"
+},
+"sb": {
+  "name": "Solomon Islands",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Great Power Competition", "status": "Active", "summary": "The Solomon Islands signed a shiprider agreement with the US aboard a visiting Coast Guard cutter on July 28, 2026, allowing joint maritime law enforcement patrols — a move opposition leader and former PM Manasseh Sogavare, who signed a controversial secret security pact with China in 2022 allowing potential Chinese police and military deployment, criticized. Analysts note the Solomons is 'hedging its bets' by maintaining security ties with both Washington and Beijing simultaneously, a common strategy among small Pacific states seeking to preserve autonomy", "sourceUrl": "https://www.rfa.org/english/pacific/2026/08/01/solomon-islands-security-agreement-usa/" }
+  ],
+  "lastUpdated": "2026-08-01"
+},
+"vu": {
+  "name": "Vanuatu",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Great Power Competition", "status": "Stable", "summary": "The US opened a new embassy in Vanuatu as part of a broader diplomatic expansion across the Pacific under the bipartisan Pacific Islands Embassy Act, aimed at countering growing Chinese influence in the region; Vanuatu has stated it has not held security discussions with China and instead signed a broad security pact with Australia in December 2022 covering disaster relief, policing, and cyber security", "sourceUrl": "https://asiamattersforamerica.org/articles/island-connections-defense-and-security-cooperation-with-the-pacific-islands" }
+  ],
+  "lastUpdated": "2025-02-09"
+},
+"ws": {
+  "name": "Samoa",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Great Power Competition", "status": "Stable", "summary": "The US has moved to appoint a resident ambassador to Samoa as part of an expanding diplomatic footprint across the Pacific Islands under the Pacific Islands Embassy Act, a direct response to China's growing engagement with Pacific leaders since 2013; China remains one of the top external creditors to Samoa alongside Australia and the World Bank", "sourceUrl": "https://asiamattersforamerica.org/articles/island-connections-defense-and-security-cooperation-with-the-pacific-islands" }
+  ],
+  "lastUpdated": "2025-02-09"
+},
+"to": {
+  "name": "Tonga",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Great Power Competition", "status": "Stable", "summary": "The US opened a new embassy in Tonga as part of its Pacific Islands Embassy Act expansion, aimed at deepening ties across the region amid rising Chinese diplomatic engagement; China is a significant creditor to Tonga, part of a broader pattern across Pacific Island nations where Australia and China are the two largest external lenders", "sourceUrl": "https://asiamattersforamerica.org/articles/island-connections-defense-and-security-cooperation-with-the-pacific-islands" }
+  ],
+  "lastUpdated": "2025-02-09"
+},
+"za": {
+  "name": "South Africa",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (down from a 30% reciprocal tariff; steel, aluminum, and autos remain at separate Section 232 rates)", "effectiveDate": "2025-11-14", "sourceUrl": "https://issafrica.org/iss-today/agoa-changes-add-to-africa-s-rollercoaster-ride-of-us-tariffs" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "The US imposed a 30% reciprocal tariff on South Africa in August 2025 targeting citrus, table grapes, wine, and automotive exports; South African auto exports to the US plunged nearly 75% in 2025. AGOA (which had given South Africa duty-free access since 2000) lapsed on September 30, 2025 and was only reinstated in February 2026 through the end of the year — a short-term fix that, economists say, does little to offset the tariffs still in place or restore long-term investment confidence", "sourceUrl": "https://dctransparency.com/tariffs-agoa-and-the-fragile-us-south-africa-trade-nexus/" }
+  ],
+  "lastUpdated": "2026-05-08"
+},
+"cd": {
+  "name": "Democratic Republic of the Congo",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "Rwanda", "type": "Peace Agreement / Minerals Deal", "status": "Fragile", "summary": "The DRC and Rwanda signed the US-brokered Washington Accords on December 4, 2025 (building on a June 2025 framework), aiming to end a three-decade war in eastern DRC where Rwanda-backed M23 rebels have seized Goma, Bukavu, and key mining regions; the peace deal came bundled with a separate US-DRC Strategic Partnership Agreement granting American firms priority access to Congolese cobalt, copper, lithium, tantalum, and other critical minerals. Congolese lawyers and human rights defenders filed a constitutional challenge against the minerals agreement in January 2026, arguing peace has been made conditional on US corporate access to resources rather than genuine reconciliation", "sourceUrl": "https://roape.net/2026/02/04/the-price-of-peace-us-strategy-and-the-drcs-critical-minerals/" }
+  ],
+  "lastUpdated": "2026-02-12"
+},
+"rw": {
+  "name": "Rwanda",
+  "tariffs": [],
+  "sanctions": [
+    { "target": "Rwanda Defence Force (RDF) and senior officials", "type": "Financial (US Treasury)", "description": "The US Treasury sanctioned the RDF and four senior officials on March 2, 2026 for 'blatant violations' of the Washington Peace Accords, following a December 2025 RDF/M23 offensive on Uvira that breached the ceasefire terms", "effectiveDate": "2026-03-02", "sourceUrl": "https://www.oaklandinstitute.org/press-release/peace-drc-requires-more-symbolic-us-sanctions-rwanda" }
+  ],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "DR Congo", "type": "Peace Agreement / Proxy War", "status": "Active", "summary": "Despite signing the December 2025 Washington Accords alongside the DRC, Rwanda continues backing the M23 rebel group in eastern Congo, which has seized major mining territories; critics argue the US has simultaneously supported Rwanda as a refining and re-export hub for smuggled Congolese minerals, undercutting any real incentive for Rwanda to withdraw. Rwanda's own Minister of State for Regional Integration, James Kabarebe, was separately sanctioned by the US Treasury in early 2025 for orchestrating support to M23 and managing mineral-extraction revenue", "sourceUrl": "https://www.oaklandinstitute.org/press-release/failed-us-brokered-peace-deal-was-never-about-peace-drc" }
+  ],
+  "lastUpdated": "2026-04-22"
+},
+"ng": {
+  "name": "Nigeria",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Nigeria was added to a US partial travel restriction list on December 16, 2025 (Presidential Proclamation 10998), suspending immigrant visa issuance along with B-1/B-2 visitor and F/M/J student and exchange visas for Nigerian nationals, over cited deficiencies in security screening and information-sharing; Nigeria is also among African nations the US has pressured to accept deported migrants from third countries", "sourceUrl": "https://eurostaffs.org/blog-details/us-visa-ban-2026-countries" }
+  ],
+  "lastUpdated": "2026-01-15"
+},
+"so": {
+  "name": "Somalia",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Somalia faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026, completely suspending both immigrant and nonimmigrant visa issuance (tourist, student, and exchange visas) for Somali nationals; Somalia also topped the list of African countries targeted for US deportation flights in late 2025", "sourceUrl": "https://www.travelandtourworld.com/news/article/zimbabwe-joins-nigeria-ghana-kenya-ethiopia-somalia-sudan-chad-and-over-thirty-other-african-countries-in-coping-with-visa-freeze-and-travel-ban-through-a-loophole-to-secure-seamless-entry-to-the-us-e/" }
+  ],
+  "lastUpdated": "2026-02-25"
+},
+"sd": {
+  "name": "Sudan",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Sudan faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026, completely suspending immigrant and nonimmigrant visa issuance for Sudanese nationals, layered atop Sudan's ongoing civil war between the Sudanese Armed Forces and the Rapid Support Forces", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"ss": {
+  "name": "South Sudan",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction & Deportation Pressure", "status": "Active", "summary": "South Sudan faces a full US travel ban under Presidential Proclamation 10998 effective January 1, 2026, and has also been specifically pressured by Washington to accept deportation flights of migrants from third countries, alongside Nigeria and Ghana", "sourceUrl": "https://www.visaverge.com/news/5-countries-rejecting-ice-deportees-force-us-to-enforce-executive-order-14159/" }
+  ],
+  "lastUpdated": "2026-05-21"
+},
+"et": {
+  "name": "Ethiopia",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Ethiopia faces reduced-validity US visas under Presidential Proclamation 10998, with over 278,000 Ethiopian nationals also affected by the February 2026 expiration of Temporary Protected Status; a grandfather clause protects those who already held valid visas or legal status before January 1, 2026, but new applicants face significant delays", "sourceUrl": "https://www.travelandtourworld.com/news/article/zimbabwe-joins-nigeria-ghana-kenya-ethiopia-somalia-sudan-chad-and-over-thirty-other-african-countries-in-coping-with-visa-freeze-and-travel-ban-through-a-loophole-to-secure-seamless-entry-to-the-us-e/" }
+  ],
+  "lastUpdated": "2026-02-25"
+},
+"ly": {
+  "name": "Libya",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Libya faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026, completely suspending immigrant and nonimmigrant visa issuance, layered atop the country's fractured, dual-government political situation", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"td": {
+  "name": "Chad",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Chad faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026, completely suspending both immigrant and nonimmigrant visa categories for Chadian nationals", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"ml": {
+  "name": "Mali",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Mali faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026, amid ongoing jihadist insurgencies and political instability following the country's military coups", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"ne": {
+  "name": "Niger",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Niger faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026, following its 2023 military coup that strained relations with Washington and prompted the withdrawal of US troops from a key drone base in the country", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"ke": {
+  "name": "Kenya",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (baseline rate)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.iisd.org/articles/policy-analysis/africa-response-us-tariff-policies" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Partnership", "status": "Cooperative", "summary": "Kenya was one of only 29 African countries to receive the lowest 10% baseline tariff rather than a higher country-specific rate, and analysts have flagged Kenya (alongside Ethiopia, Lesotho, and Mauritius) as a potential winner in low-end textile sourcing shifting away from Asia; Kenya and the US have separately operated the US-Kenya Strategic Trade and Investment Partnership (STIP) since July 2022, and Kenya is at risk of debt distress according to the Center for Global Development", "sourceUrl": "https://www.afrikavantage.com/briefs/us-africa-tariff-update-2025" }
+  ],
+  "lastUpdated": "2025-08-01"
+},
+"gh": {
+  "name": "Ghana",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (AGOA duty-free access lapsed September 2025)", "effectiveDate": "2025-08-07", "sourceUrl": "https://practiceguides.chambers.com/practice-guides/international-trade-2026/ghana" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Realignment", "status": "Active", "summary": "Ghana lost its AGOA duty-free access to the US market when the program expired on September 30, 2025, prompting Accra to begin separate negotiations with China for a zero-tariff trade agreement — a notable pivot away from reliance on US preferential access; Ghana is one of several African nations currently in sovereign debt default, per the Center for Global Development", "sourceUrl": "https://practiceguides.chambers.com/practice-guides/international-trade-2026/ghana" }
+  ],
+  "lastUpdated": "2025-12-16"
+},
+"ma": {
+  "name": "Morocco",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (despite an existing US-Morocco Free Trade Agreement)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.afrikavantage.com/briefs/us-africa-tariff-update-2025" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Agreement Undermined", "status": "Active", "summary": "Despite having an active Free Trade Agreement with the US since 2006, Morocco was still hit with the 10% baseline tariff in 2025 — effectively neutralizing the preferential terms that FTA was supposed to guarantee, a treatment it shared with Tunisia", "sourceUrl": "https://www.afrikavantage.com/briefs/us-africa-tariff-update-2025" }
+  ],
+  "lastUpdated": "2025-08-01"
+},
+"tn": {
+  "name": "Tunisia",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.afrikavantage.com/briefs/us-africa-tariff-update-2025" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Agreement Undermined", "status": "Active", "summary": "Tunisia's existing trade agreement with the US failed to shield it from the 2025 tariff wave, receiving the same 10% baseline rate as countries with no formal trade deal at all", "sourceUrl": "https://www.afrikavantage.com/briefs/us-africa-tariff-update-2025" }
+  ],
+  "lastUpdated": "2025-08-01"
+},
+"dz": {
+  "name": "Algeria",
+  "tariffs": [
+    { "target": "United States", "rate": "30%", "category": "Reciprocal tariff (among the highest imposed on any African country)", "effectiveDate": "2025-08-07", "sourceUrl": "https://carnegieendowment.org/research/2025/06/africa-us-tariff-economy-agoa" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Dispute", "status": "Active", "summary": "Algeria was hit with a 30% tariff, tied with South Africa for the highest rate among major African economies (behind only Libya at 31%), forcing Algiers into last-minute negotiations ahead of the August 7 deadline", "sourceUrl": "https://allafrica.com/stories/202508010430.html" }
+  ],
+  "lastUpdated": "2025-08-01"
+},
+"sn": {
+  "name": "Senegal",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Senegal faces partial US travel restrictions under Presidential Proclamation 10998, suspending immigrant visa issuance and select nonimmigrant visa categories; Senegal was also among the countries invited to Trump's 2025 working lunch with African leaders, despite the subsequent visa crackdown", "sourceUrl": "https://www.theafricareport.com/405296/nigeria-somalia-egypt-us-suspends-visa-applications-for-26-more-african-countries/" }
+  ],
+  "lastUpdated": "2026-01-15"
+},
+"zw": {
+  "name": "Zimbabwe",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down from an initially threatened 18%)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.tralac.org/blog/article/17084-us-tariff-actions-against-africa-2025-26-some-regional-and-sectoral-insights.html" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Negotiation & Immigration Restriction", "status": "Mixed", "summary": "Zimbabwe was among the few African nations to proactively offer to unilaterally eliminate its own tariffs on US imports in an attempt to secure better terms; despite this, Zimbabwe still faces partial US visa restrictions under Presidential Proclamation 10998, layered atop its long-standing separate US sanctions regime targeting individuals tied to the Mugabe-era government", "sourceUrl": "https://carnegieendowment.org/research/2025/06/africa-us-tariff-economy-agoa" }
+  ],
+  "lastUpdated": "2026-01-15"
+},
+"zm": {
+  "name": "Zambia",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down from an initially threatened 17%)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.tralac.org/blog/article/17084-us-tariff-actions-against-africa-2025-26-some-regional-and-sectoral-insights.html" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade & Debt Distress", "status": "Active", "summary": "Zambia is currently in sovereign debt default, one of several African nations (alongside Ghana and Malawi) facing this status amid the new tariff burden; as a mineral-exporting nation, Zambia could see some relief through carve-outs for critical minerals in the broader US tariff structure", "sourceUrl": "https://www.cgdev.org/blog/new-us-tariff-regime-another-blow-africa" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"ao": {
+  "name": "Angola",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down from an initially threatened 32%)", "effectiveDate": "2025-08-07", "sourceUrl": "https://allafrica.com/stories/202508010430.html" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Angola faces partial US travel restrictions under Presidential Proclamation 10998, suspending immigrant visa issuance and select nonimmigrant categories; Angola was among the top five African exporters to the US under the now-lapsed AGOA program (roughly $1.2 billion in 2023, mostly crude oil), and as a mineral-exporting nation may see some tariff relief through resource carve-outs", "sourceUrl": "https://www.cgdev.org/blog/new-us-tariff-regime-another-blow-africa" }
+  ],
+  "lastUpdated": "2026-01-15"
+},
+"ls": {
+  "name": "Lesotho",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down dramatically from an initial 50% threat, the highest of any country worldwide)", "effectiveDate": "2025-08-07", "sourceUrl": "https://allafrica.com/stories/202508010430.html" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Negotiation", "status": "Resolved", "summary": "Lesotho, a tiny landlocked country of 2.3 million people that exported nearly $240 million to the US in 2024 and was one of the most AGOA-dependent nations on Earth, initially faced the single highest tariff threat of any country worldwide at 50%; after intensive emergency negotiations, Lesotho secured a reduction to just 15%, becoming an unexpected 'winner' relative to the scale of the original threat", "sourceUrl": "https://www.afrikavantage.com/briefs/us-africa-tariff-update-2025" }
+  ],
+  "lastUpdated": "2025-08-01"
+},
+"bw": {
+  "name": "Botswana",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down sharply from an initial 37% threat)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.cgdev.org/media/us-tariff-tracker-measuring-effective-tariff-rates" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Impact & Visa Bond", "status": "Active", "summary": "US imports from Botswana collapsed from $45.7 million in May 2025 to just $4.7 million in June amid tariff uncertainty; Botswana is also among 30 African nations whose nationals may be subject to a new permanent $20,000 US visa bond requirement, part of a scheme originally piloted in 2025", "sourceUrl": "https://www.cgdev.org/blog/us-tariff-tyranny-and-africa-update" }
+  ],
+  "lastUpdated": "2026-08-01"
+},
+"na": {
+  "name": "Namibia",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down from an initial 21% threat)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.cgdev.org/media/us-tariff-tracker-measuring-effective-tariff-rates" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Visa Bond Program", "status": "Active", "summary": "Namibia is among 30 African nations whose nationals may be required to pay a new permanent $20,000 US visa bond, part of a scheme the State Department piloted in 2025 targeting countries with elevated visa overstay concerns", "sourceUrl": "https://www.tuko.co.ke/world/us/634915-30-african-countries-affected-visa-bond-permanent-full-list/" }
+  ],
+  "lastUpdated": "2026-07-30"
+},
+"mz": {
+  "name": "Mozambique",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down slightly from an initial 16% threat)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.cgdev.org/media/us-tariff-tracker-measuring-effective-tariff-rates" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Visa Bond Program", "status": "Active", "summary": "Mozambique is among 30 African nations whose nationals may be required to pay a new permanent $20,000 US visa bond under a scheme originally piloted by the State Department in 2025; the Center for Global Development also flagged Mozambique among African nations at risk of debt distress", "sourceUrl": "https://www.tuko.co.ke/world/us/634915-30-african-countries-affected-visa-bond-permanent-full-list/" }
+  ],
+  "lastUpdated": "2026-07-30"
+},
+"mg": {
+  "name": "Madagascar",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down dramatically from an initial 47% threat, among the highest imposed on any country worldwide)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.cgdev.org/media/us-tariff-tracker-measuring-effective-tariff-rates" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Negotiation", "status": "Resolved", "summary": "Madagascar initially faced a 47% tariff — one of the highest rates announced against any country worldwide alongside Lesotho's 50% — and organized an emergency delegation to negotiate with Washington; the rate was ultimately reduced to 15% after months of uncertainty", "sourceUrl": "https://carnegieendowment.org/research/2025/06/africa-us-tariff-economy-agoa?lang=en" }
+  ],
+  "lastUpdated": "2026-08-01"
+},
+"mu": {
+  "name": "Mauritius",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down from an initial 40% threat)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.cgdev.org/media/us-tariff-tracker-measuring-effective-tariff-rates" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Impact & Visa Bond", "status": "Active", "summary": "Mauritius was among the hardest-hit African nations in the original April 2025 tariff announcement at 40%, alongside Lesotho and Madagascar; the rate was later reduced to 15%, though Mauritius remains on the list of 30 African countries potentially subject to a new $20,000 US visa bond requirement", "sourceUrl": "https://www.tralac.org/blog/article/17084-us-tariff-actions-against-africa-2025-26-some-regional-and-sectoral-insights.html" }
+  ],
+  "lastUpdated": "2026-08-01"
+},
+"tz": {
+  "name": "Tanzania",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Tanzania faced expanded US travel and visa restrictions through 2025 and 2026, including partial suspension under Presidential Proclamation 10998 and mandatory in-person consular interviews for all nonimmigrant visa applicants, including renewals — part of a broader tightening that affected nearly half of all African nations", "sourceUrl": "https://monitor.icef.com/2026/06/us-visa-processing-centres-in-africa-to-be-reduced-by-more-than-half-only-the-latest-barrier-for-african-students/" }
+  ],
+  "lastUpdated": "2026-06-11"
+},
+"ug": {
+  "name": "Uganda",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff", "effectiveDate": "2025-08-07", "sourceUrl": "https://allafrica.com/stories/202508010130.html" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Policy Response", "status": "Active", "summary": "Rather than seeking a negotiated deal, Uganda's government publicly resolved to build a more self-sustaining domestic economy in response to the 2025 US tariff wave, a markedly different strategy from neighbors like Zimbabwe, which offered unilateral tariff elimination on US goods; Uganda also faces expanded US visa restrictions, and Senate Foreign Relations Committee Chairman Jim Risch called in January 2026 for sanctions on Uganda's military chief over human rights abuses", "sourceUrl": "https://carnegieendowment.org/research/2025/06/africa-us-tariff-economy-agoa?lang=en" }
+  ],
+  "lastUpdated": "2026-01-25"
+},
+"cm": {
+  "name": "Cameroon",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (revised upward from an initial 11%)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.forbesafrica.com/current-affairs/2025/08/01/trump-imposes-new-tariffs-on-nigeria-ghana-cote-divoire-cameroon-under-revised-trade-order" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade & Immigration Restriction", "status": "Active", "summary": "Cameroon was hit with a revised US executive order in August 2025 raising its tariff and introducing anti-transshipment measures — a 40% duty on goods routed through third countries to evade tariffs — despite ongoing African outreach for deeper trade cooperation; Cameroon also faces US visa restrictions and mandatory in-person consular interviews for all nonimmigrant visa categories", "sourceUrl": "https://www.forbesafrica.com/current-affairs/2025/08/01/trump-imposes-new-tariffs-on-nigeria-ghana-cote-divoire-cameroon-under-revised-trade-order" }
+  ],
+  "lastUpdated": "2025-08-01"
+},
+"ci": {
+  "name": "Ivory Coast",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (revised upward from an initial 21%)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.forbesafrica.com/current-affairs/2025/08/01/trump-imposes-new-tariffs-on-nigeria-ghana-cote-divoire-cameroon-under-revised-trade-order" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade & Immigration Restriction", "status": "Active", "summary": "Côte d'Ivoire was named alongside Nigeria, Ghana, and Cameroon in an August 2025 revised US tariff order despite being a key player in the African Continental Free Trade Area (AfCFTA); the country also faces US visa restrictions under Presidential Proclamation 10998, though it retains ECOWAS visa-free travel privileges with 14 other West African nations", "sourceUrl": "https://www.forbesafrica.com/current-affairs/2025/08/01/trump-imposes-new-tariffs-on-nigeria-ghana-cote-divoire-cameroon-under-revised-trade-order" }
+  ],
+  "lastUpdated": "2025-08-01"
+},
+"gn": {
+  "name": "Guinea",
+  "tariffs": [],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration Restriction & Minerals Interest", "status": "Mixed", "summary": "Guinea faces US visa restrictions under Presidential Proclamation 10998, part of a broader African travel crackdown, even as Washington has separately identified Guinea (alongside DRC and Rwanda) as a country of strategic interest for its critical mineral reserves, particularly bauxite; Guinea's December 28, 2025 presidential election was praised by ECOWAS observers as peaceful and a step toward constitutional civilian rule following a prior coup", "sourceUrl": "https://www.theafricareport.com/405296/nigeria-somalia-egypt-us-suspends-visa-applications-for-26-more-african-countries/" }
+  ],
+  "lastUpdated": "2025-12-31"
+},
+"dj": {
+  "name": "Djibouti",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/djibouti" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Military Basing", "status": "Cooperative", "summary": "Djibouti hosts Camp Lemonnier, the only permanent US military base in Africa, alongside French, Chinese, and Japanese bases — a rare concentration of great-power military presence in one small country generating over $125 million per year for Djibouti's economy; its position on the Bab el-Mandeb Strait makes it strategically vital for global trade, particularly amid Houthi attacks and piracy concerns in the Red Sea and Gulf of Aden", "sourceUrl": "https://www.coface.com/news-economy-and-insights/business-risk-dashboard/country-risk-files/djibouti" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"er": {
+  "name": "Eritrea",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/eritrea" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "AGOA Ineligibility & Visa Restriction", "status": "Active", "summary": "Eritrea was ruled ineligible for AGOA preferential trade benefits in 2025 specifically over human rights concerns, and separately faces a full US travel ban under Presidential Proclamation 10998; Eritrea also maintains a long-running border dispute with Djibouti over the Ras Doumeira territory", "sourceUrl": "https://www.congress.gov/crs_external_products/IF/PDF/IF10149/IF10149.26.pdf" }
+  ],
+  "lastUpdated": "2026-02-17"
+},
+"ga": {
+  "name": "Gabon",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/gabon" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "AGOA Ineligibility & Minerals Diplomacy", "status": "Mixed", "summary": "Gabon was ruled ineligible for AGOA preferential trade benefits in 2025 over rule-of-law concerns, even as it was one of five West African nations (alongside Senegal, Liberia, Guinea-Bissau, and Mauritania) whose leaders Trump hosted at the White House in May 2025, where he emphasized the region's oil and mineral wealth — though that outreach has yet to produce tangible outcomes", "sourceUrl": "https://www.cgdev.org/blog/us-tariff-tyranny-and-africa-update" }
+  ],
+  "lastUpdated": "2025-08-19"
+},
+"cg": {
+  "name": "Republic of the Congo",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/republic-of-the-congo" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "The Republic of the Congo faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026, completely suspending immigrant and nonimmigrant visa issuance for its nationals", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-security-of-the-united-states.html" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"cf": {
+  "name": "Central African Republic",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/central-african-republic" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "AGOA Ineligibility", "status": "Active", "summary": "The Central African Republic was ruled ineligible for AGOA preferential trade benefits in 2025 specifically over human rights concerns, part of a group of five sub-Saharan nations (alongside Cameroon, Eritrea, Ethiopia, and Uganda) excluded on the same grounds", "sourceUrl": "https://www.congress.gov/crs_external_products/IF/PDF/IF10149/IF10149.26.pdf" }
+  ],
+  "lastUpdated": "2026-02-17"
+},
+"bj": {
+  "name": "Benin",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/benin" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Benin faces partial US travel restrictions under Presidential Proclamation 10998, suspending immigrant visa issuance and select nonimmigrant visa categories for its nationals", "sourceUrl": "https://eurostaffs.org/blog-details/us-visa-ban-2026-countries" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"tg": {
+  "name": "Togo",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/togo" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Immigration/Visa Restriction", "status": "Active", "summary": "Togo faces partial US travel restrictions under Presidential Proclamation 10998 and is also among 30 African nations potentially subject to a new permanent $20,000 US visa bond requirement", "sourceUrl": "https://www.tuko.co.ke/world/us/634915-30-african-countries-affected-visa-bond-permanent-full-list/" }
+  ],
+  "lastUpdated": "2026-07-30"
+},
+"sl": {
+  "name": "Sierra Leone",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/sierra-leone" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Full Travel Ban & WTO Coalition", "status": "Active", "summary": "Sierra Leone faces a full US travel ban under Presidential Proclamation 10998, effective January 1, 2026; the country was separately among six African WTO members (with Cabo Verde, Cameroon, Gambia, Liberia, and Nigeria) who co-signed an April 2025 'Friends of the System' communiqué pledging collective action on the future of the global trading system", "sourceUrl": "https://www.iisd.org/articles/policy-analysis/africa-response-us-tariff-policies" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"lr": {
+  "name": "Liberia",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (charges the US 10% in return, one of the lowest African rates)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Minerals Diplomacy & Visa Restriction", "status": "Mixed", "summary": "Liberia's president was among five West African leaders (alongside Senegal, Guinea-Bissau, Mauritania, and Gabon) hosted at the White House in May 2025, where Trump highlighted the region's oil and mineral deposits as a basis for deeper cooperation; despite this outreach, Liberia was later added to the list of African nations facing US visa restrictions in January 2026", "sourceUrl": "https://www.cgdev.org/blog/us-tariff-tyranny-and-africa-update" }
+  ],
+  "lastUpdated": "2026-01-15"
+},
+"bf": {
+  "name": "Burkina Faso",
+  "tariffs": [
+    { "target": "United States", "rate": "0%", "category": "No tariff increase applied (one of only three African countries entirely spared from the 2025 tariff wave)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.iisd.org/articles/policy-analysis/africa-response-us-tariff-policies" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "AGOA Ineligibility & Full Travel Ban", "status": "Active", "summary": "Burkina Faso was one of only three African nations (with Seychelles and Somalia) to avoid any tariff increase in 2025, reportedly because the US runs a trade deficit with it; despite this, Burkina Faso faces a full US travel ban under Presidential Proclamation 10998 and was ruled ineligible for AGOA over rule-of-law concerns tied to its military-led government following a 2022 coup", "sourceUrl": "https://carnegieendowment.org/research/2025/06/africa-us-tariff-economy-agoa?lang=en" }
+  ],
+  "lastUpdated": "2026-02-17"
+},
+"bi": {
+  "name": "Burundi",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/burundi" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "AGOA Ineligibility", "status": "Active", "summary": "Burundi was ruled ineligible for AGOA preferential trade benefits in 2025 specifically over political violence, one of only two African nations (alongside South Sudan) excluded on those grounds", "sourceUrl": "https://www.congress.gov/crs_external_products/IF/PDF/IF10149/IF10149.26.pdf" }
+  ],
+  "lastUpdated": "2026-02-17"
+},
+"gm": {
+  "name": "The Gambia",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/gambia" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Visa Bond Program", "status": "Active", "summary": "The Gambia was the first African country added to the US visa bond pilot program on October 11, 2025, requiring a financial bond as a condition of visa issuance; Gambia's Foreign Affairs Minister has said the US specifically cited high visa overstay rates (12.7% for B-1/B-2 visitors and 38.79% for student and exchange visas) as the justification", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/countries-subject-to-visa-bonds.html" }
+  ],
+  "lastUpdated": "2025-12-31"
+},
+"mr": {
+  "name": "Mauritania",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/mauritania" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Visa Bond Program & Minerals Diplomacy", "status": "Mixed", "summary": "Mauritania was added to the US visa bond pilot program on October 23, 2025, even as its president was among five West African leaders hosted at the White House in May 2025 for talks emphasizing the region's oil and mineral wealth", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/countries-subject-to-visa-bonds.html" }
+  ],
+  "lastUpdated": "2025-10-23"
+},
+"mw": {
+  "name": "Malawi",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (down from an initial 17% threat)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/malawi" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Debt Default & Visa Bond", "status": "Active", "summary": "Malawi was one of the earliest countries added to the US visa bond pilot program, on August 20, 2025; the country is also currently in sovereign debt default, one of several African nations flagged by the Center for Global Development alongside Ghana and Zambia", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/countries-subject-to-visa-bonds.html" }
+  ],
+  "lastUpdated": "2025-08-20"
+},
+"sz": {
+  "name": "Eswatini",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/eswatini" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "China", "type": "Trade Exclusion", "status": "Active", "summary": "When China offered new duty-free market access to nearly all African nations in 2025 to counter the US tariff wave, Eswatini was the sole country excluded — a direct consequence of Eswatini being the only African state to maintain formal diplomatic relations with Taiwan rather than Beijing", "sourceUrl": "https://www.cgdev.org/blog/us-tariff-tyranny-and-africa-update" }
+  ],
+  "lastUpdated": "2025-08-19"
+},
+"gq": {
+  "name": "Equatorial Guinea",
+  "tariffs": [
+    { "target": "United States", "rate": "13%", "category": "General tariff", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/malaysia" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "AGOA Ineligibility & Full Travel Ban", "status": "Active", "summary": "Equatorial Guinea was ruled ineligible for AGOA preferential trade benefits in 2025 over income graduation status (alongside Seychelles), and separately faces a full US travel ban under Presidential Proclamation 10998", "sourceUrl": "https://www.congress.gov/crs_external_products/IF/PDF/IF10149/IF10149.26.pdf" }
+  ],
+  "lastUpdated": "2026-02-17"
+},
+"cv": {
+  "name": "Cabo Verde",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cabo-verde" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "WTO Coalition & Visa Restriction", "status": "Mixed", "summary": "Cabo Verde was among six African WTO members (with Cameroon, Gambia, Liberia, Nigeria, and Sierra Leone) who co-signed an April 2025 'Friends of the System' communiqué on the future of the global trading system, even as it later faced partial US visa restrictions under Presidential Proclamation 10998", "sourceUrl": "https://www.iisd.org/articles/policy-analysis/africa-response-us-tariff-policies" }
+  ],
+  "lastUpdated": "2026-01-15"
+},
+"gw": {
+  "name": "Guinea-Bissau",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/guinea-bissau" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Minerals Diplomacy & Visa Bond", "status": "Mixed", "summary": "Guinea-Bissau's president was among five West African leaders hosted at the White House in May 2025 for talks on regional oil and mineral wealth, yet the country was still added to the US visa bond pilot program on January 1, 2026", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/countries-subject-to-visa-bonds.html" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"sc": {
+  "name": "Seychelles",
+  "tariffs": [
+    { "target": "United States", "rate": "0%", "category": "No tariff increase applied (one of only three African countries entirely spared from the 2025 tariff wave)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.iisd.org/articles/policy-analysis/africa-response-us-tariff-policies" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "AGOA Ineligibility & Visa Bond", "status": "Mixed", "summary": "Seychelles was one of only three African nations (with Burkina Faso and Somalia) to avoid any 2025 tariff increase, yet was separately ruled ineligible for AGOA over income graduation status and later added to the US visa bond pilot program on April 2, 2026", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/countries-subject-to-visa-bonds.html" }
+  ],
+  "lastUpdated": "2026-04-02"
+},
+"st": {
+  "name": "Sao Tome and Principe",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/sao-tome-and-principe" }
+  ],
+  "sanctions": [],
+  "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Visa Bond Program", "status": "Active", "summary": "São Tomé and Príncipe, one of Africa's smallest nations, was added to the US visa bond pilot program on October 23, 2025, the same date as Mauritania", "sourceUrl": "https://travel.state.gov/content/travel/en/News/visas-news/countries-subject-to-visa-bonds.html" }
+  ],
+  "lastUpdated": "2025-10-23"
+},
+"mt": {
+  "name": "Malta",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (EU-wide rate under the July 2025 framework)", "effectiveDate": "2026-07-01", "sourceUrl": "https://kescologistics.com/blog/reciprocal-tariff-tracker/" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2026-03-26"
+},
+"lu": {
+  "name": "Luxembourg",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (EU-wide rate under the July 2025 framework)", "effectiveDate": "2026-07-01", "sourceUrl": "https://kescologistics.com/blog/reciprocal-tariff-tracker/" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2026-03-26"
+},
+"li": {
+  "name": "Liechtenstein",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (bundled with Switzerland's November 2025 trade framework, down from an initial 37% threat)", "effectiveDate": "2025-11-14", "sourceUrl": "https://kpmg.com/us/en/taxnewsflash/news/2025/12/united-states-revises-tariffs-liechtenstein-switzerland.html" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Agreement", "status": "De-escalated", "summary": "Liechtenstein was folded into Switzerland's November 2025 trade framework given their customs union, reducing its rate from an initially threatened 37% to 15%; the deal applies the higher of the MFN rate or 15% and adjusts duties on select agricultural goods, aircraft parts, and pharmaceuticals, pending final agreement by Q1 2026", "sourceUrl": "https://kpmg.com/us/en/taxnewsflash/news/2025/12/united-states-revises-tariffs-liechtenstein-switzerland.html" }
+  ],
+  "lastUpdated": "2025-12-17"
+},
+"ad": {
+  "name": "Andorra",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2026-01-01"
+},
+"mc": {
+  "name": "Monaco",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2026-01-01"
+},
+"sm": {
+  "name": "San Marino",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2026-01-01"
+},
+"va": {
+  "name": "Vatican City",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2026-01-01"
+},
+"tm": {
+  "name": "Turkmenistan",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Diplomatic Engagement", "status": "Cooperative", "summary": "Turkmenistan was among the five Central Asian states hosted by President Trump at a November 2025 White House summit alongside Kazakhstan, Uzbekistan, Tajikistan, and Kyrgyzstan, part of a broader US push to deepen ties and secure critical minerals access across the region; Turkmenistan received a new US chargé d'affaires as part of this renewed engagement", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"km": {
+  "name": "Comoros",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/libya" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "Internal Economic Crisis", "type": "Fuel Price Unrest", "status": "Active", "summary": "Comoros raised diesel prices by 46% and gasoline by 35% in May 2026 amid a global oil price spike tied to the Iran war, triggering nationwide protests and deadly unrest that forced President Assoumani to suspend the hikes within a week", "sourceUrl": "https://en.wikipedia.org/wiki/2026_in_the_Comoros" }
+  ],
+  "lastUpdated": "2026-05-16"
+},
+"eh": {
+  "name": "Western Sahara",
+  "tariffs": [],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "Morocco / Polisario Front", "type": "Territorial Dispute", "status": "Active", "summary": "The UN Security Council adopted Resolution 2797 in late 2025 endorsing Morocco's autonomy plan for Western Sahara and extending the MINURSO peacekeeping mission through October 2026, a diplomatic win for Morocco that drew condemnation from the Polisario Front, which continues to seek full independence; the US has generally backed Morocco's autonomy framework as the most viable path forward", "sourceUrl": "https://en.wikipedia.org/wiki/2025_in_Western_Sahara" }
+  ],
+  "lastUpdated": "2026-03-02"
+},
+"ki": {
+  "name": "Kiribati",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Diplomatic Presence", "status": "Cooperative", "summary": "The US Embassy in Fiji maintains diplomatic accreditation covering Kiribati alongside Tonga, Tuvalu, Nauru, and other Pacific micro-states, part of Washington's expanded diplomatic footprint across the Pacific aimed at countering Chinese influence in the region", "sourceUrl": "https://fj.usembassy.gov/location-fiji-tonga-tuvalu-nauru-kiribati-french-polynesia-new-caledonia-and-wallis-and-futuna/" }
+  ],
+  "lastUpdated": "2025-08-19"
+},
+"tv": {
+  "name": "Tuvalu",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "Climate Crisis / Energy Shortage", "type": "State of Emergency", "status": "Active", "summary": "Tuvalu declared a two-week state of emergency on its capital island Funafuti in April 2026 over growing fuel and electricity shortages; the tiny Pacific nation is set to host a special world leaders' meeting ahead of the 2026 UN Climate Change Conference in Turkey, underscoring its role as a frontline nation in the climate crisis", "sourceUrl": "https://en.wikipedia.org/wiki/2026_in_Tuvalu" }
+  ],
+  "lastUpdated": "2026-04-17"
+},
+"nr": {
+  "name": "Nauru",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (higher than most Pacific micro-states)", "effectiveDate": "2025-08-07", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States / China", "type": "Diplomatic Realignment", "status": "Active", "summary": "Nauru abruptly switched diplomatic recognition from Taiwan to China in January 2024 in exchange for a reported $100 million package, a move that rattled Washington and its allies and became a cautionary example cited repeatedly when the US renewed its Compact of Free Association funding with Palau, the Marshall Islands, and Micronesia to prevent similar defections", "sourceUrl": "https://www.csis.org/analysis/compacts-free-association-congress-and-strategic-competition-pacific" }
+  ],
+  "lastUpdated": "2025-09-25"
+},
+"nc": {
+  "name": "New Caledonia",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (French overseas territory, EU-wide rate applies)", "effectiveDate": "2026-07-01", "sourceUrl": "https://fj.usembassy.gov/location-fiji-tonga-tuvalu-nauru-kiribati-french-polynesia-new-caledonia-and-wallis-and-futuna/" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2025-08-19"
+},
+"fk": {
+  "name": "Falkland Islands",
+  "tariffs": [
+    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline, down from an initial 41% threat)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Measure", "status": "Resolved", "summary": "The Falkland Islands, a UK overseas territory, initially faced one of the highest reciprocal tariff rates announced anywhere in the world at 41% in April 2025, before it was folded into the broader 10% Section 122 baseline that replaced most country-specific rates", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
+  ],
+  "lastUpdated": "2026-01-01"
+},
+"gf": {
+  "name": "French Guiana",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (French overseas territory, EU-wide rate applies)", "effectiveDate": "2026-07-01", "sourceUrl": "https://kescologistics.com/blog/reciprocal-tariff-tracker/" }
+  ],
+  "sanctions": [], "bannedGoods": [], "conflicts": [],
+  "lastUpdated": "2026-03-26"
+},
+"si": {
+  "name": "Slovenia",
+  "tariffs": [
+    { "target": "United States", "rate": "15%", "category": "General tariff (EU-wide rate under the July 2025 framework)", "effectiveDate": "2026-07-01", "sourceUrl": "https://usafacts.org/answers/what-is-the-average-us-tariff-rate-overall/countries/slovenia/" }
+  ],
+  "sanctions": [], "bannedGoods": [],
+  "conflicts": [
+    { "with": "United States", "type": "Trade Measure", "status": "Ongoing", "summary": "Slovenia's effective US tariff rate jumped from just 0.41% in 2024 to 4.5% in 2025 as part of the broader EU-US 15% framework, with aluminum products facing the steepest impact at up to 48.6% by February 2026 under Section 232", "sourceUrl": "https://usafacts.org/answers/what-is-the-average-us-tariff-rate-overall/countries/slovenia/" }
+  ],
+  "lastUpdated": "2026-04-23"
+}
+}
