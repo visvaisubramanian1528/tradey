@@ -2165,12 +2165,12 @@
   "fk": {
     "name": "Falkland Islands",
     "tariffs": [
-      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
+      { "target": "United States", "rate": "41%", "category": "Reciprocal tariff", "effectiveDate": "2025-04-05", "sourceUrl": "https://time.com/7274194/trump-reciprocal-tariffs-highest-country-rates-calculation-math-imports-exports/" }
     ],
     "sanctions": [],
     "bannedGoods": [],
     "conflicts": [],
-    "lastUpdated": "2025-04-03"
+    "lastUpdated": "2026-08-13"
   },
   "km": {
     "name": "Comoros",
@@ -2184,13 +2184,11 @@
   },
   "gf": {
     "name": "French Guiana",
-    "tariffs": [
-      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (EU baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/united-states_en" }
-    ],
+    "tariffs": [],
     "sanctions": [],
     "bannedGoods": [],
     "conflicts": [],
-    "lastUpdated": "2025-04-03"
+    "lastUpdated": "2026-08-13"
   },
 "si": {
   "name": "Slovenia",
