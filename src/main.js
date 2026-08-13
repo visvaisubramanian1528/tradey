@@ -1,4 +1,4 @@
-import countries from './data/countries.json'
+import countries from '../public/data/countries.json'
 
 const normalizedCountries = {}
 for (const key in countries) {
@@ -72,7 +72,7 @@ let hawaiiOverlayEl = null
 function ensureMapLoaded() {
   if (!mapLoadPromise) {
     mapLoadPromise = (async () => {
-      const response = await fetch('/src/data/world-map.svg')
+      const response = await fetch('/data/world-map.svg')
       const svgText = await response.text()
       document.getElementById('app').innerHTML = svgText
 
