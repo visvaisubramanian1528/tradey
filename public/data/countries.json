@@ -2094,8 +2094,7 @@
 "ad": {
   "name": "Andorra",
   "tariffs": [
-    { "target": "United States", "rate": "10%", "category": "General tariff (Section 122 baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.pinebill.app/tools/us-tariff-calculator/cayman-islands" }
-  ],
+    { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }  ],
   "sanctions": [], "bannedGoods": [], "conflicts": [],
   "lastUpdated": "2026-01-01"
 },
