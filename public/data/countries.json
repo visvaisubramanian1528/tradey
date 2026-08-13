@@ -7,14 +7,14 @@
       { "target": "European Union", "rate": "17% (Targeted)", "category": "EVs, industrial machinery & agricultural counter-duties", "effectiveDate": "2024-10-30", "sourceUrl": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/china_en" }
     ],
     "sanctions": [
-      { "target": "Russia", "type": "Financial", "description": "SWIFT restrictions on major banks", "effectiveDate": "2022-02-26", "sourceUrl": "" }
+      { "target": "Russia", "type": "Financial", "description": "SWIFT restrictions on major banks", "effectiveDate": "2022-02-26", "sourceUrl": "https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database/" }
     ],
     "bannedGoods": [
-      { "item": "Huawei telecom equipment", "reason": "National security", "effectiveDate": "2019-05-15", "sourceUrl": "" }
+      { "item": "Huawei telecom equipment", "reason": "National security", "effectiveDate": "2019-05-15", "sourceUrl": "https://www.bis.gov/entity-list" }
     ],
     "conflicts": [
-      { "with": "China", "type": "Trade War", "status": "Active", "summary": "Ongoing tariff escalation over tech exports", "sourceUrl": "" },
-      { "with": "Iran", "type": "Military (Active War)", "status": "Active", "summary": "Joint US-Israel military operation launched in early 2026 targeting Iranian infrastructure; ongoing hostilities alongside Strait of Hormuz naval blockade", "sourceUrl": "" }
+      { "with": "China", "type": "Trade War", "status": "Active", "summary": "Ongoing tariff escalation over tech exports", "sourceUrl": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china" },
+      { "with": "Iran", "type": "Military (Active War)", "status": "Active", "summary": "Joint US-Israel military operation launched in early 2026 targeting Iranian infrastructure; ongoing hostilities alongside Strait of Hormuz naval blockade", "sourceUrl": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran" }
     ],
     "lastUpdated": "2026-08-13"
   },
