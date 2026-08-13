@@ -2114,13 +2114,11 @@
 },
 "va": {
     "name": "Vatican City",
-    "tariffs": [
-      { "target": "United States", "rate": "10%", "category": "Reciprocal tariff (baseline)", "effectiveDate": "2025-04-05", "sourceUrl": "https://www.forbes.com/sites/mollybohannon/2025/04/02/heres-the-full-list-of-trumps-reciprocal-tariffs-announced-wednesday/" }
-    ],
+    "tariffs": [],
     "sanctions": [],
     "bannedGoods": [],
     "conflicts": [],
-    "lastUpdated": "2025-04-03"
+    "lastUpdated": "2026-08-13"
   },
   "tm": {
     "name": "Turkmenistan",
